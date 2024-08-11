@@ -1,123 +1,295 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
 ---
 
-<Layout title="Welcome to Astro.">
-	<main>
-		<svg
-			class="astro-a"
-			width="495"
-			height="623"
-			viewBox="0 0 495 623"
-			fill="none"
-			xmlns="http://www.w3.org/2000/svg"
-			aria-hidden="true"
-		>
-			<path
-				fill-rule="evenodd"
-				clip-rule="evenodd"
-				d="M167.19 364.254C83.4786 364.254 0 404.819 0 404.819C0 404.819 141.781 19.4876 142.087 18.7291C146.434 7.33701 153.027 0 162.289 0H332.441C341.703 0 348.574 7.33701 352.643 18.7291C352.92 19.5022 494.716 404.819 494.716 404.819C494.716 404.819 426.67 364.254 327.525 364.254L264.41 169.408C262.047 159.985 255.147 153.581 247.358 153.581C239.569 153.581 232.669 159.985 230.306 169.408L167.19 364.254ZM160.869 530.172C160.877 530.18 160.885 530.187 160.894 530.195L160.867 530.181C160.868 530.178 160.868 530.175 160.869 530.172ZM136.218 411.348C124.476 450.467 132.698 504.458 160.869 530.172C160.997 529.696 161.125 529.242 161.248 528.804C161.502 527.907 161.737 527.073 161.917 526.233C165.446 509.895 178.754 499.52 195.577 500.01C211.969 500.487 220.67 508.765 223.202 527.254C224.141 534.12 224.23 541.131 224.319 548.105C224.328 548.834 224.337 549.563 224.347 550.291C224.563 566.098 228.657 580.707 237.264 593.914C245.413 606.426 256.108 615.943 270.749 622.478C270.593 621.952 270.463 621.508 270.35 621.126C270.045 620.086 269.872 619.499 269.685 618.911C258.909 585.935 266.668 563.266 295.344 543.933C298.254 541.971 301.187 540.041 304.12 538.112C310.591 533.854 317.059 529.599 323.279 525.007C345.88 508.329 360.09 486.327 363.431 457.844C364.805 446.148 363.781 434.657 359.848 423.275C358.176 424.287 356.587 425.295 355.042 426.275C351.744 428.366 348.647 430.33 345.382 431.934C303.466 452.507 259.152 455.053 214.03 448.245C184.802 443.834 156.584 436.019 136.218 411.348Z"
-				fill="url(#paint0_linear_1805_24383)"></path>
-			<defs>
-				<linearGradient
-					id="paint0_linear_1805_24383"
-					x1="247.358"
-					y1="0"
-					x2="247.358"
-					y2="622.479"
-					gradientUnits="userSpaceOnUse"
-				>
-					<stop stop-opacity="0.9"></stop>
-					<stop offset="1" stop-opacity="0.2"></stop>
-				</linearGradient>
-			</defs>
-		</svg>
-		<h1>Welcome to <span class="text-gradient">Astro</span></h1>
-		<p class="instructions">
-			To get started, open the directory <code>src/pages</code> in your project.<br />
-			<strong>Code Challenge:</strong> Tweak the "Welcome to Astro" message above.
-		</p>
-		<ul role="list" class="link-card-grid">
-			<Card
-				href="https://docs.astro.build/"
-				title="Documentation"
-				body="Learn how Astro works and explore the official API docs."
-			/>
-			<Card
-				href="https://astro.build/integrations/"
-				title="Integrations"
-				body="Supercharge your project with new frameworks and libraries."
-			/>
-			<Card
-				href="https://astro.build/themes/"
-				title="Themes"
-				body="Explore a galaxy of community-built starter themes."
-			/>
-			<Card
-				href="https://astro.build/chat/"
-				title="Community"
-				body="Come say hi to our amazing Discord community. ❤️"
-			/>
-		</ul>
+<Layout title="Jhossymar Contreras | Portfolio">
+	<main class="cjdev__main_container">
+		<nav class="cjdev__menu cjdev__menu--main">
+			<ul class="cjdev__menu__list">
+				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#" aria-label="Go Home"><i class="cjdev__menu__item__icon fa-solid fa-house"></i><span class="cjdev__menu__item__text">Home</span></a></li>
+				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#about" aria-label="Go to About Me section"><i class="cjdev__menu__item__icon fa-solid fa-user"></i><span class="cjdev__menu__item__text">About Me</span></a></li>
+				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#projects" aria-label="Go to Portfolio section"><i class="cjdev__menu__item__icon fa-solid fa-laptop-code"></i><span class="cjdev__menu__item__text">Portfolio</span></a></li>
+				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#experience" aria-label="Go to Experience section"><i class="cjdev__menu__item__icon fa-solid fa-briefcase"></i><span class="cjdev__menu__item__text">Experience</span></a></li>
+				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#skills" aria-label="Go to Skills section"><i class="cjdev__menu__item__icon fa-solid fa-code"></i><span class="cjdev__menu__item__text">Skills</span></a></li>
+			</ul>
+		</nav>
+		<header class="cjdev__header" id="home">
+			<section class="cjdev__header__container">
+				<article class="cjdev__header__article">
+					<figure class="cjdev__header__article__container cjdev__header__article__container--image"><img class="cjdev__header__article__image" src="/assets/images/photo.png" alt=""></figure>
+					<section class="cjdev__header__article__container cjdev__header__article__container--info">
+						<h1 class="cjdev__header__article__name">Jhossymar Contreras</h1>
+						<h2 class="cjdev__header__article__position">Systems Engineer & Frontend Developer</h2>
+						<ul class="cjdev__header__article__social">
+							<li class="cjdev__header__article__social__item"><a class="cjdev__header__article__social__link" href="https://www.linkedin.com/in/jhossyd3v/" aria-label="Go to Jhossymar's LinkedIn"><i class="devicon-linkedin-plain"></i></a></li>
+							<li class="cjdev__header__article__social__item"><a class="cjdev__header__article__social__link" href="https://github.com/jhossyd3v" aria-label="Go to Jhosssymar's GitHub"><i class="devicon-github-original"></i></a></li>
+							<li class="cjdev__header__article__social__item"><a class="cjdev__header__article__social__link" href="https://codepen.io/jhossyd3v" aria-label="Go to Jhossymar's Codepen"><i class="devicon-codepen-plain"></i></a></li>
+							<li class="cjdev__header__article__social__item"><a class="cjdev__header__article__social__link" href="https://twitter.com/jhossyd3v" aria-label="Go to Jhossymar's Twitter"><i class="devicon-twitter-original"></i></a></li>
+						</ul>
+					</section>
+				</article>
+			</section>
+		</header>
+			<section class="cjdev__section" id="about">
+				<h3 class="cjdev__section__title">About Me</h3>
+				<p>Hello! I'm Jhossymar, a<b> Systems Engineer</b>, graduated from<b> Universidad de El Salvador FMOcc</b>, and I have been working as Developer since November 2017.</p>
+				<p>I speak Spanish (native) and English (conversational).</p>
+				<p>During my years coding I have:</p>
+				<ul>
+					<li>Proposed innovative ideas to resolve issues with technology.</li>
+					<li>Designed and developed new features.</li>
+					<li>Created responsive landing pages, web apps and interactive infographics.</li>
+					<li>Researched about new technologies that could be added to the software or the development process.</li>
+					<li>Collected and analyzed data to create visualizations.</li>
+				</ul>
+				<p>If you want to<b> hire me</b>:
+					<a class="cjdev__button cjdev__button--cv" href="/assets/pdf/cv-jhossymar_contreras.pdf" target="_blank" aria-label="Download Jhossymar's resume"><i class="fa-regular fa-file-pdf cjdev__button__icon"></i>Download Resume</a>
+				</p>
+				<h4 class="cjdev__interests__title">My Interests</h4>
+				<ul class="cjdev__interests">
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-tv"></i>
+					<h5 class="cjdev__interest__title">Anime</h5><span class="cjdev__interest__text"><b>Favorites:</b> Hunter X Hunter, Haikyuu, Fairy Tail</span>
+					</li>
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-headphones"></i>
+					<h5 class="cjdev__interest__title">Music</h5><span class="cjdev__interest__text"><b>Favorites:</b> Juan Luis Guerra, Grupo Niche, Maroon 5</span>
+					</li>
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-futbol"></i>
+					<h5 class="cjdev__interest__title">Sports</h5><span class="cjdev__interest__text"><b>Favorites:</b> Soccer, Basketball, Baseball, NFL</span>
+					</li>
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-gamepad"></i>
+					<h5 class="cjdev__interest__title">Gaming</h5><span class="cjdev__interest__text"><b>Favorites:</b> Hearthstone, Fire Emblem, FIFA</span>
+					</li>
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-tv"></i>
+					<h5 class="cjdev__interest__title">Series</h5><span class="cjdev__interest__text"><b>Favorites:</b> Dr. Who, Dr. House, The Mentalist</span>
+					</li>
+					<li class="cjdev__interest"><i class="cjdev__interest__icon fa-solid fa-film"></i>
+					<h5 class="cjdev__interest__title">Cinema</h5><span class="cjdev__interest__text"><b>Favorites:</b> Your Name, Interstellar, The Intern</span>
+					</li>
+				</ul>
+			</section>
+			<section class="cjdev__section" id="projects">
+			<h3 class="cjdev__section__title">Portfolio</h3>
+			<section class="cjdev__projects"></section>
+			</section>
+			<section class="cjdev__section" id="experience">
+			<h3 class="cjdev__section__title">Experience</h3>
+			<section class="cjdev__experiences">
+				<article class="cjdev__experience cjdev__experience--active">
+				<h4 class="cjdev__experience__title"><i class="fa-solid fa-building cjdev__experience__icon"></i>JDK Oustanding Technologies</h4><span class="cjdev__experience__date_range"><i class="fa-solid fa-calendar cjdev__experience__icon"></i> (Mar 2023 - Present)</span>
+				<h4 class="cjdev__experience__position"><i class="fa-solid fa-briefcase cjdev__experience__icon"></i>Frontend Developer</h4>
+				<p class="cjdev__experience__description"><i class="cjdev__experience__icon fa-solid fa-circle-info"></i>JDK Outstanding Technologies is a leading web development company dedicated to delivering innovative and customized digital solutions.</p>
+				<hr>
+				<ul class="cjdev__experience__information">
+					<li class="cjdev__experience__information__item">Implement provided designs into functional web pages.</li>
+					<li class="cjdev__experience__information__item">Review and analyze pull requests to ensure alignment with client requirements and team needs.</li>
+					<li class="cjdev__experience__information__item">Lead the team on various projects.</li>
+					<li class="cjdev__experience__information__item">Contribute to structural and design decisions.</li>
+					<li class="cjdev__experience__information__item">Support colleagues and assist with problem-solving.</li>
+				</ul>
+				<hr>
+				<div class="cjdev__switch">
+					<label class="cjdev__switch__checkbox_label" for="cjdev__switch__checkbox__jdk">
+					<input class="cjdev__switch__checkbox" type="checkbox" data-company="jdk" name="cjdev__switch__checkbox__jdk" id="cjdev__switch__checkbox__jdk"><span class="cjdev__switch__slider"></span>
+					</label>
+				</div>
+				<ul class="cjdev__techs cjdev__techs--jdk">
+					<li class="cjdev__tech__item"><i class="devicon-astro-plain"></i><span class="cjdev__tech__item__text">Astro</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-javascript-plain"></i><span class="cjdev__tech__item__text">Javascript</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-css3-plain"></i><span class="cjdev__tech__item__text">CSS 3</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-html5-plain"></i><span class="cjdev__tech__item__text">HTML 5</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-sass-plain"></i><span class="cjdev__tech__item__text">SASS</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-git-plain"></i><span class="cjdev__tech__item__text">Git</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-wordpress-plain"></i><span class="cjdev__tech__item__text">Wordpress</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-bootstrap-plain"></i><span class="cjdev__tech__item__text">Bootstrap</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-figma-plain"></i><span class="cjdev__tech__item__text">Figma</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__experience">
+				<h4 class="cjdev__experience__title"><i class="fa-solid fa-building cjdev__experience__icon"></i>La Prensa Gráfica</h4><span class="cjdev__experience__date_range"><i class="fa-solid fa-calendar cjdev__experience__icon"></i> (Dec 2020 - Mar 2023)</span>
+				<h4 class="cjdev__experience__position"><i class="fa-solid fa-briefcase cjdev__experience__icon"></i>Web Developer</h4>
+				<p class="cjdev__experience__description"><i class="cjdev__experience__icon fa-solid fa-circle-info"></i>La Prensa Gráfica is one of the newspapers with large circulation in El Salvador</p>
+				<hr>
+				<ul class="cjdev__experience__information">
+					<li class="cjdev__experience__information__item">Developing responsive web apps and web interactive charts and infographics.</li>
+					<li class="cjdev__experience__information__item">Developing web apps for streaming/television sports shows.</li>
+					<li class="cjdev__experience__information__item">Proposing innovative ideas to resolve issues with technology.</li>
+					<li class="cjdev__experience__information__item">Improved UI/UX design of Séptimo Sentido's Website.</li>
+					<li class="cjdev__experience__information__item">Collecting and analyzing data to create visualizations.</li>
+					<li class="cjdev__experience__information__item">Creating landing pages for Séptimo Sentido's researches.</li>
+					<li class="cjdev__experience__information__item">Creating scripts to automate downloads of multiple files and data.</li>
+				</ul>
+				<hr>
+				<div class="cjdev__switch">
+					<label class="cjdev__switch__checkbox_label" for="cjdev__switch__checkbox__lpg">
+					<input class="cjdev__switch__checkbox" type="checkbox" data-company="lpg" name="cjdev__switch__checkbox__lpg" id="cjdev__switch__checkbox__lpg"><span class="cjdev__switch__slider"></span>
+					</label>
+				</div>
+				<ul class="cjdev__techs cjdev__techs--lpg">
+					<li class="cjdev__tech__item"><i class="devicon-javascript-plain"></i><span class="cjdev__tech__item__text">Javascript</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-css3-plain"></i><span class="cjdev__tech__item__text">CSS 3</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-html5-plain"></i><span class="cjdev__tech__item__text">HTML 5</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-sass-plain"></i><span class="cjdev__tech__item__text">SASS</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-git-plain"></i><span class="cjdev__tech__item__text">Git</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-photoshop-plain"></i><span class="cjdev__skill__item__text">Photoshop</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-jupyter-plain-wordmark"></i><span class="cjdev__tech__item__text">Jupyter</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-pandas-plain"></i><span class="cjdev__tech__item__text">Pandas</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-illustrator-plain"></i><span class="cjdev__skill__item__text">Illustrator</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-php-plain"></i><span class="cjdev__tech__item__text">PHP</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-wordpress-plain"></i><span class="cjdev__tech__item__text">Wordpress</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-bootstrap-plain"></i><span class="cjdev__tech__item__text">Bootstrap</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-figma-plain"></i><span class="cjdev__tech__item__text">Figma</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-filezilla-plain"></i><span class="cjdev__tech__item__text">Filezilla</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-gimp-plain"></i><span class="cjdev__tech__item__text">Gimp</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Google Sheets</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Responsively App</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Prepros</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Leaflet js</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Font Awesome</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Splide js</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Select2 js</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">PDF js</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Animate.css</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Magic.css</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__experience">
+				<h4 class="cjdev__experience__title"><i class="fa-solid fa-building cjdev__experience__icon"></i>Supertex El Salvador</h4><span class="cjdev__experience__date_range"><i class="fa-solid fa-calendar cjdev__experience__icon"></i> (Nov 2017 - Dec 2020)</span>
+				<h4 class="cjdev__experience__position"><i class="fa-solid fa-briefcase cjdev__experience__icon"></i>PHP and Front End Developer</h4>
+				<p class="cjdev__experience__description"><i class="cjdev__experience__icon fa-solid fa-circle-info"></i>Supertex El Salvador is a company focused on being a leader in the manufacture of sportswear.</p>
+				<hr>
+				<ul class="cjdev__experience__information">
+					<li class="cjdev__experience__information__item">Designed and developed new features of the manufacturing software in the company.</li>
+					<li class="cjdev__experience__information__item">Modified code to fix errors.</li>
+					<li class="cjdev__experience__information__item">Researched about new technologies that could be added to the software or the development process.</li>
+				</ul>
+				<hr>
+				<div class="cjdev__switch">
+					<label class="cjdev__switch__checkbox_label" for="cjdev__switch__checkbox__supertex">
+					<input class="cjdev__switch__checkbox" type="checkbox" data-company="supertex" name="cjdev__switch__checkbox__supertex" id="cjdev__switch__checkbox__supertex"><span class="cjdev__switch__slider"></span>
+					</label>
+				</div>
+				<ul class="cjdev__techs cjdev__techs--supertex">
+					<li class="cjdev__tech__item"><i class="devicon-javascript-plain"></i><span class="cjdev__tech__item__text">Javascript</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-css3-plain"></i><span class="cjdev__tech__item__text">CSS 3</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-html5-plain"></i><span class="cjdev__tech__item__text">HTML 5</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-php-plain"></i><span class="cjdev__tech__item__text">PHP</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-jquery-plain"></i><span class="cjdev__tech__item__text">jQuery</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-mysql-plain"></i><span class="cjdev__tech__item__text">MySQL</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-postgresql-plain"></i><span class="cjdev__tech__item__text">PostgreSQL</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-subversion-plain"></i><span class="cjdev__tech__item__text">SVN</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-git-plain"></i><span class="cjdev__tech__item__text">Git</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-react-plain"></i><span class="cjdev__tech__item__text">React</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-vscode-plain"></i><span class="cjdev__tech__item__text">VS Code</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-vscode-plain"></i><span class="cjdev__tech__item__text">Putty</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-debian-plain"></i><span class="cjdev__tech__item__text">Debian</span></li>
+					<li class="cjdev__tech__item"><i class="devicon-bootstrap-plain"></i><span class="cjdev__tech__item__text">Bootstrap</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Font Awesome</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">Form Validation</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">FPDF</span></li>
+					<li class="cjdev__tech__item"><span class="cjdev__tech__item__text">XAMPP</span></li>
+				</ul>
+				</article>
+			</section>
+			</section>
+			<section class="cjdev__section" id="skills">
+			<h3 class="cjdev__section__title">Skills</h3>
+			<section class="cjdev__levels"><span>In</span><span class="cjdev__level cjdev__level--many" title="More than 10 projects">Many</span><span>|</span><span class="cjdev__level cjdev__level--some" title="More than 5 projects">Some</span><span>|</span><span class="cjdev__level cjdev__level--few" title="At least 1 project">Few</span><span>Projects</span></section>
+			<section class="cjdev__skills">
+				<article class="cjdev__skill">
+				<h4 class="cjdev__skill__title">Coding Languages</h4>
+				<ul class="cjdev__skill__list cjdev__skill__list--many">
+					<li class="cjdev__skill__item"><i class="devicon-javascript-plain"></i><span class="cjdev__skill__item__text">Javascript</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-css3-plain"></i><span class="cjdev__skill__item__text">CSS3</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-html5-plain"></i><span class="cjdev__skill__item__text">HTML5</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--some">
+					<li class="cjdev__skill__item"><i class="devicon-php-plain"></i><span class="cjdev__skill__item__text">PHP</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-python-plain"></i><span class="cjdev__skill__item__text">Python</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--few">
+					<li class="cjdev__skill__item"><i class="devicon-csharp-plain"></i><span class="cjdev__skill__item__text">C#</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-java-plain"></i><span class="cjdev__skill__item__text">Java</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-bash-plain"></i><span class="cjdev__skill__item__text">Bash</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Visual Basic</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__skill">
+				<h4 class="cjdev__skill__title">Databases</h4>
+				<ul class="cjdev__skill__list cjdev__skill__list--many">
+					<li class="cjdev__skill__item"><i class="devicon-mysql-plain"></i><span class="cjdev__skill__item__text">MySQL</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--some">
+					<li class="cjdev__skill__item"><i class="devicon-postgresql-plain"></i><span class="cjdev__skill__item__text">PostgreSQL</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--few">
+					<li class="cjdev__skill__item"><i class="devicon-sqlite-plain"></i><span class="cjdev__skill__item__text">SQLite</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-mongodb-plain"></i><span class="cjdev__skill__item__text">Mongo DB</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__skill">
+				<h4 class="cjdev__skill__title">Version Control</h4>
+				<ul class="cjdev__skill__list cjdev__skill__list--many">
+					<li class="cjdev__skill__item"><i class="devicon-git-plain"></i><span class="cjdev__skill__item__text">Git</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--few">
+					<li class="cjdev__skill__item"><i class="devicon-subversion-plain"></i><span class="cjdev__skill__item__text">SVN</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__skill">
+				<h4 class="cjdev__skill__title">Frameworks/Libraries/Other</h4>
+				<ul class="cjdev__skill__list cjdev__skill__list--many">
+					<li class="cjdev__skill__item"><i class="devicon-sass-original"></i><span class="cjdev__skill__item__text">SASS</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--some">
+					<li class="cjdev__skill__item"><i class="devicon-jquery-plain"></i><span class="cjdev__skill__item__text">jQuery</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-bootstrap-plain"></i><span class="cjdev__skill__item__text">Bootstrap</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-wordpress-plain"></i><span class="cjdev__skill__item__text">Wordpress</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-pandas-plain"></i><span class="cjdev__skill__item__text">Pandas</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-jupyter-plain-wordmark"></i><span class="cjdev__skill__item__text">Jupyter</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--few">
+					<li class="cjdev__skill__item"><i class="devicon-nodejs-plain"></i><span class="cjdev__skill__item__text">Node JS</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-react-plain"></i><span class="cjdev__skill__item__text">React</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-angularjs-plain"></i><span class="cjdev__skill__item__text">Angular JS</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-grunt-plain"></i><span class="cjdev__skill__item__text">Grunt</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-bower-plain"></i><span class="cjdev__skill__item__text">Bower</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-gulp-plain"></i><span class="cjdev__skill__item__text">Gulp</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Pug</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Stylus</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Primefaces</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Jakarta EE</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Docker</span></li>
+				</ul>
+				</article>
+				<article class="cjdev__skill">
+				<h4 class="cjdev__skill__title">Software</h4>
+				<ul class="cjdev__skill__list cjdev__skill__list--many">
+					<li class="cjdev__skill__item"><i class="devicon-vscode-plain"></i><span class="cjdev__skill__item__text">VS Code</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Responsively App</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Prepros</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--some">
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Google Sheets</span></li>
+				</ul>
+				<ul class="cjdev__skill__list cjdev__skill__list--few">
+					<li class="cjdev__skill__item"><i class="devicon-photoshop-plain"></i><span class="cjdev__skill__item__text">Photoshop</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-illustrator-plain"></i><span class="cjdev__skill__item__text">Illustrator</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-putty-plain"></i><span class="cjdev__skill__item__text">Putty</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-debian-plain"></i><span class="cjdev__skill__item__text">Debian</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-linux-plain"></i><span class="cjdev__skill__item__text">Linux</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-figma-plain"></i><span class="cjdev__skill__item__text">Figma</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-gimp-plain"></i><span class="cjdev__skill__item__text">Gimp</span></li>
+					<li class="cjdev__skill__item"><i class="devicon-filezilla-plain"></i><span class="cjdev__skill__item__text">Filezilla</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">XAMPP</span></li>
+					<li class="cjdev__skill__item"><span class="cjdev__skill__item__text">Glassfish</span></li>
+				</ul>
+				</article>
+			</section>
+		</section>
+		<footer class="cjdev__footer">
+			<p>Languages & Libraries: Pug, SASS, Javascript, Font Awesome, Devicon.</p>
+			<p>Software: Prepros, Responsively App.</p>
+		</footer>
+
 	</main>
 </Layout>
-
-<style>
-	main {
-		margin: auto;
-		padding: 1rem;
-		width: 800px;
-		max-width: calc(100% - 2rem);
-		color: white;
-		font-size: 20px;
-		line-height: 1.6;
-	}
-	.astro-a {
-		position: absolute;
-		top: -32px;
-		left: 50%;
-		transform: translatex(-50%);
-		width: 220px;
-		height: auto;
-		z-index: -1;
-	}
-	h1 {
-		font-size: 4rem;
-		font-weight: 700;
-		line-height: 1;
-		text-align: center;
-		margin-bottom: 1em;
-	}
-	.text-gradient {
-		background-image: var(--accent-gradient);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-		background-size: 400%;
-		background-position: 0%;
-	}
-	.instructions {
-		margin-bottom: 2rem;
-		border: 1px solid rgba(var(--accent-light), 25%);
-		background: linear-gradient(rgba(var(--accent-dark), 66%), rgba(var(--accent-dark), 33%));
-		padding: 1.5rem;
-		border-radius: 8px;
-	}
-	.instructions code {
-		font-size: 0.8em;
-		font-weight: bold;
-		background: rgba(var(--accent-light), 12%);
-		color: rgb(var(--accent-light));
-		border-radius: 4px;
-		padding: 0.3em 0.4em;
-	}
-	.instructions strong {
-		color: rgb(var(--accent-light));
-	}
-	.link-card-grid {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
-		gap: 2rem;
-		padding: 0;
-	}
-</style>
