@@ -1,14 +1,15 @@
 ---
-import "/src/styles/style.scss";
+import "../styles/style.scss";
 interface Props {
 	title: string;
+	htmlLang?: string;
 }
 
-const { title } = Astro.props;
+const { title, htmlLang = 'en'} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={htmlLang}>
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
@@ -17,9 +18,11 @@ const { title } = Astro.props;
 		<title>{title}</title>
 		<link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+		<slot name="page-styles"></slot>
 	</head>
 	<body>
 		<slot />
-		<script is:inline src="/js/script.js"></script>
 	</body>
+	<slot name="page-scripts"></slot>
+	<script src="../scripts/script.js"></script>
 </html>
