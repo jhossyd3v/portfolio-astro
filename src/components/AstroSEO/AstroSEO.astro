@@ -1,32 +1,29 @@
 ---
-import seoData from './data/astro-seo.js'
+import createSEOData from '@components/AstroSEO/data/astro-seo'
 import { SEO } from 'astro-seo'
 
 type Props = {
-  seoID?: string
-  iconType?: string
-  lang?: string
+  seoID?: string;
+  lang?: string;
 }
 
-/*
-  Page property allows component to get the correct data (title, facebook and instagram props) according the page where is going to be implemented
-*/
-const { seoID = 'default', iconType = 'ico', lang = 'en' } = Astro.props
+const { seoID = "default",lang = "en" } = Astro.props
+const data = createSEOData(seoID, lang)
 ---
 
 <SEO
-    title={seoData.pages[seoID][lang].title}
-    titleTemplate={seoData.titleTemplate}
-    titleDefault={seoData.titleDefault}
-    charset={seoData.charset}
-    description={seoData.pages[seoID][lang].description}
+    title={data.title}
+    titleTemplate={data.titleTemplate}
+    titleDefault={data.titleDefault}
+    charset={data.charset}
+    description={data.description}
     extend={{
-        link: seoData.link[{ iconType }],
-        meta: seoData.meta
+        link: data.link,
+        meta: data.meta
     }}
-    nofollow={seoData.nofollow}
-    noindex={seoData.noindex}
-    openGraph={seoData.pages[seoID][lang].openGraph}
-    twitter={seoData.pages[seoID][lang].twitter}
+    nofollow={data.nofollow}
+    noindex={data.noindex}
+    openGraph={data.openGraph}
+    twitter={data.twitter}
     />
 </SEO>
