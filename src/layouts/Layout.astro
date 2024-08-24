@@ -1,21 +1,19 @@
 ---
 import "../styles/style.scss";
+import AstroSEO from "@components/AstroSEO/AstroSEO.astro";
 interface Props {
 	title: string;
-	htmlLang?: string;
+	lang?: string;
+	seoID?: string;
 }
 
-const { title, htmlLang = 'en'} = Astro.props;
+const { title, lang = 'en', seoID = 'default' } = Astro.props;
 ---
 
 <!doctype html>
-<html lang={htmlLang}>
+<html lang={lang}>
 	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, minimum-scale=1.0">
-		<meta name="description" content="Web to show information about Jhossymar Contreras, projects, experience, skills, social networks">
-		<link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
-		<title>{title}</title>
+		<AstroSEO seoID={seoID} lang={lang} iconType="ico" />
 		<link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<slot name="page-styles"></slot>
