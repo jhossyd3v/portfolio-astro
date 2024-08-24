@@ -2,12 +2,11 @@
 import "../styles/style.scss";
 import AstroSEO from "@components/AstroSEO/AstroSEO.astro";
 interface Props {
-	title: string;
 	lang?: string;
 	seoID?: string;
 }
 
-const { title, lang = 'en', seoID = 'default' } = Astro.props;
+const {lang = 'en', seoID = 'default' } = Astro.props;
 ---
 
 <!doctype html>
