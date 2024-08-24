@@ -17,8 +17,7 @@ function entryFilenameToJs (filename) {
 
 export default defineConfig({
   site: 'https:www.jhossy.dev',
-  compressHTML: false,
-  trailingSlash: 'always',
+  compressHTML: true,
   build: {
     format: 'directory',
     assets: 'assets',
@@ -64,7 +63,7 @@ export default defineConfig({
                 id => !id.includes('node_modules')
               )
               if (nonNodeModuleId) {
-                name = nonNodeModuleId.split('/').pop().split('?')[0] // Extract the file name from the module ID
+                name = nonNodeModuleId.split('/').pop().split('?')[0]
               }
 
               const isAstroFile = name.includes('.astro')
