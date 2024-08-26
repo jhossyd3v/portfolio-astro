@@ -147,6 +147,7 @@ const addMeta = (seoObject, name, content) => {
 }
 
 const setPageData = (seoObject, pageID, lang) => {
+  if (!pagesData[pageID]) pageID = 'default'
   seoObject.title = pagesData[pageID][lang].title || seoObject.titleDefault
   seoObject.description = pagesData[pageID][lang].description || seoObject.description
   seoObject.openGraph = pagesData[pageID][lang].openGraph || seoObject.openGraph
