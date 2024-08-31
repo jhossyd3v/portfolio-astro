@@ -1,25 +1,37 @@
 ---
 import "@styles/style.scss";
 import AstroSEO from "@components/AstroSEO/AstroSEO.astro";
+import HeadAnalytics from "@components/Analytics/HeadAnalytics.astro";
+import BodyAnalytics from "@components/Analytics/BodyAnalytics.astro";
+import Header from "@components/Header/Header.astro";
+import Footer from "@components/Footer/Footer.astro";
 
 interface Props {
 	lang?: string;
 	seoID?: string;
+	addHeadAnalytics?: boolean;
+	addBodyAnalytics?: boolean;
+	addHeader?: boolean;
+	addFooter?: boolean;
 }
 
-const {lang = 'en', seoID = 'default' } = Astro.props;
+const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytics = false, addHeader = false, addFooter = false} = Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang}>
 	<head>
+		{addHeadAnalytics && <HeadAnalytics/>}
 		<AstroSEO seoID={seoID} lang={lang} />
 		<link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<slot name="page-styles"></slot>
 	</head>
 	<body>
+		{addBodyAnalytics && <BodyAnalytics/>}
+		{addHeader && <Header/>}
 		<slot />
+		{addFooter && <Footer/>}
 	</body>
 	<slot name="page-scripts"></slot>
 	<script src="../scripts/script.js"></script>
