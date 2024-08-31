@@ -1,7 +1,11 @@
+import  initHeader  from "./components/header"
+
 const projectsContainer = document.querySelector('.cjdev__projects')
 window.onload = load
 
 function load () {
+  initHeader()
+
   drawProjects()
 
   const experienceTechSwitches = document.querySelectorAll(
