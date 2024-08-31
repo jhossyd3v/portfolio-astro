@@ -1,0 +1,25 @@
+---
+import data from "./data/header-items.json";
+import { getDataByLang } from "@scripts/utils"
+import HeaderItem from "./HeaderItem.astro";
+import type { BaseProps } from "@scripts/types/types.ts";
+
+type Props = Pick<BaseProps, "lang">;
+
+const { lang = "en" } = Astro.props;
+const headerItems = getDataByLang(data[0], lang);
+---
+
+<header class="header">
+    <nav class="header__menu">
+        <ul class="header__list">
+            {headerItems.map((item: any) => (
+                    <HeaderItem href={item.menuLink}
+                            ariaLabel={item.ariaLabel}
+                            target={item.target}
+                            iconClassName={item.iconClasses}
+                            menuText={item.menuText} />
+            ))}
+        </ul>
+    </nav>
+</header>

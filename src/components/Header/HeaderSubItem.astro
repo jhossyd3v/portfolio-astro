@@ -1,0 +1,15 @@
+---
+import type { HeaderItem } from '@scripts/types/types'
+
+
+type Props = HeaderItem
+
+const {ariaLabel, iconClassName, menuText, href, ...attrs } = Astro.props
+---
+
+<li class:list={["header__item", "header__item--sub"]}>
+  <a class="item__link" href={href} aria-label={ariaLabel} {...attrs}>
+      <i class:list={['item__icon', iconClassName]}></i>
+      <span class="item__text">{menuText}</span>
+  </a>
+</li>
