@@ -1,0 +1,10 @@
+:root {
+    --wrapper-margin: 16px;
+    --wrapper-max-width: calc(100% - (var(--wrapper-margin) * 2));
+}
+
+.wrapper {
+    max-width: var(--wrapper-max-width);
+    margin: 0 var(--wrapper-margin);
+    width: 100%;
+}
