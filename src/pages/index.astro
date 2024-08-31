@@ -1,19 +1,11 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '@layouts/Layout.astro';
 ---
 
-<Layout seoID='home'>
+<Layout seoID='home' addHeader addFooter>
 	<main class="cjdev__main_container">
-		<nav class="cjdev__menu cjdev__menu--main">
-			<ul class="cjdev__menu__list">
-				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#" aria-label="Go Home"><i class="cjdev__menu__item__icon fa-solid fa-house"></i><span class="cjdev__menu__item__text">Home</span></a></li>
-				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#about" aria-label="Go to About Me section"><i class="cjdev__menu__item__icon fa-solid fa-user"></i><span class="cjdev__menu__item__text">About Me</span></a></li>
-				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#projects" aria-label="Go to Portfolio section"><i class="cjdev__menu__item__icon fa-solid fa-laptop-code"></i><span class="cjdev__menu__item__text">Portfolio</span></a></li>
-				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#experience" aria-label="Go to Experience section"><i class="cjdev__menu__item__icon fa-solid fa-briefcase"></i><span class="cjdev__menu__item__text">Experience</span></a></li>
-				<li class="cjdev__menu__item"><a class="cjdev__menu__link" href="#skills" aria-label="Go to Skills section"><i class="cjdev__menu__item__icon fa-solid fa-code"></i><span class="cjdev__menu__item__text">Skills</span></a></li>
-			</ul>
-		</nav>
-		<header class="cjdev__header" id="home">
+
+		<!-- <header class="cjdev__header" id="home"> -->
 			<section class="cjdev__header__container">
 				<article class="cjdev__header__article">
 					<figure class="cjdev__header__article__container cjdev__header__article__container--image"><img class="cjdev__header__article__image" src="/assets/images/photo.png" alt=""></figure>
@@ -29,7 +21,7 @@ import Layout from '../layouts/Layout.astro';
 					</section>
 				</article>
 			</section>
-		</header>
+		<!-- </header> -->
 			<section class="cjdev__section" id="about">
 				<h3 class="cjdev__section__title">About Me</h3>
 				<p>Hello! I'm Jhossymar, a<b> Systems Engineer</b>, graduated from<b> Universidad de El Salvador FMOcc</b>, and I have been working as Developer since November 2017.</p>
