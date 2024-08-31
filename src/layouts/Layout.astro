@@ -5,33 +5,33 @@ import HeadAnalytics from "@components/Analytics/HeadAnalytics.astro";
 import BodyAnalytics from "@components/Analytics/BodyAnalytics.astro";
 import Header from "@components/Header/Header.astro";
 import Footer from "@components/Footer/Footer.astro";
+import type { BaseProps } from "@scripts/types/types.ts";
 
-interface Props {
-	lang?: string;
+type Props = {
 	seoID?: string;
 	addHeadAnalytics?: boolean;
 	addBodyAnalytics?: boolean;
 	addHeader?: boolean;
 	addFooter?: boolean;
-}
+} & Omit<BaseProps, "id">;
 
-const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytics = false, addHeader = false, addFooter = false} = Astro.props;
+const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytics = false, addHeader = false, addFooter = false, className = []} = Astro.props;
 ---
 
 <!doctype html>
 <html lang={lang}>
 	<head>
 		{addHeadAnalytics && <HeadAnalytics/>}
-		<AstroSEO seoID={seoID} lang={lang} />
+		<AstroSEO id={seoID} lang={lang} />
 		<link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<slot name="page-styles"></slot>
 	</head>
-	<body>
+	<body class:list={[...className]}>
 		{addBodyAnalytics && <BodyAnalytics/>}
-		{addHeader && <Header/>}
+		{addHeader && <Header lang={lang} />}
 		<slot />
-		{addFooter && <Footer/>}
+		{addFooter && <Footer lang={lang} />}
 	</body>
 	<slot name="page-scripts"></slot>
 	<script src="../scripts/script.js"></script>
