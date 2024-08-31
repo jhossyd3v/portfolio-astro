@@ -1,10 +1,11 @@
 :root {
     --wrapper-margin: 16px;
     --wrapper-max-width: calc(100% - (var(--wrapper-margin) * 2));
+    --header-height: 0;
 }
 
 .wrapper {
+    width: 100%;
     max-width: var(--wrapper-max-width);
     margin: 0 var(--wrapper-margin);
-    width: 100%;
 }

@@ -1,0 +1,93 @@
+@use "@styles/settings/variables" as  *;
+
+.header__item {
+  width: calc(100% / 6);
+  border-right: 1px solid $ghost-white;
+
+  &:last-child {
+    border: none;
+  }
+
+  .item {
+    &__link {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: center;
+      justify-content: center;
+
+      box-sizing: border-box;
+      width: 100%;
+      padding: 20px 0;
+
+      color: $ghost-white;
+      text-align: center;
+      text-decoration: none;
+
+      background-color: $dark-gunmetal;
+
+      &:hover {
+        background-color: $liberty;
+
+        @media screen and (min-width: 1024px) {
+          position: relative;
+          color: $ghost-white;
+          background-color: $dark-gunmetal;
+
+          &::before,
+          &::after {
+            content: "";
+
+            position: absolute;
+            bottom: -2px;
+            left: 8px;
+
+            display: block;
+
+            width: 35px;
+            height: 5px;
+
+            background-color: $liberty;
+          }
+
+          &::after {
+            left: 0;
+            width: 5px;
+            border-radius: 50%;
+          }
+        }
+      }
+
+      @media screen and (min-width: 768px) {
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+      }
+
+      @media screen and (min-width: 1024px) {
+        padding: 0;
+        padding-bottom: 5px;
+      }
+    }
+
+    &__text {
+      font-size: 9px;
+      line-height: 1;
+
+      @media screen and (min-width: 450px) {
+        font-size: 12px;
+
+      }
+
+      @media screen and (min-width: 1024px) {
+        font-size: 16px;
+      }
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    width: auto;
+    margin: 0 10px;
+    border: none;
+  }
+}
