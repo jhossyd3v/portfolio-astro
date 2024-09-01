@@ -38,7 +38,7 @@
 
       box-sizing: border-box;
       width: fit-content;
-      width: 230px;
+      width: 260px;
       margin: 0 auto;
 
       line-height: 0;
@@ -47,13 +47,13 @@
     }
 
     &__image {
-      width: 230px;
+      width: 100%;
       border-radius: 50%;
     }
 
     &__info {
       position: absolute;
-      bottom: -130px;
+      bottom: -100px;
 
       box-sizing: border-box;
       width: fit-content;
