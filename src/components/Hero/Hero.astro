@@ -1,0 +1,35 @@
+---
+import data from './data/hero.json'
+import type { BaseProps } from '@scripts/types/types'
+import { getDataByLang } from '@scripts/utils'
+import SocialItem from '@components/SocialItem/SocialItem.astro'
+
+type Props = Pick<BaseProps, 'lang'>
+
+const { lang = 'en' } = Astro.props
+const heroData = getDataByLang(data, lang)
+---
+
+<section class="hero">
+  <div class="hero__overlay">
+    <article class="hero__content">
+      <figure class="content__image-container">
+        <img class="content__image" src="/assets/images/photo.png" alt="">
+      </figure>
+      <section class="content__info">
+        <h1 class="content__name">{heroData.name}</h1>
+        <h2 class="content__position">{heroData.position}</h2>
+        <ul class="content__social">
+          {heroData.socials.map((item: any) => (
+            <SocialItem
+              href={item.href}
+              ariaLabel={item.ariaLabel}
+              iconClassName={item.classNames}
+              target={item.target}
+            />
+          ))}
+        </ul>
+      </section>
+    </article>
+  </div>
+</section>
