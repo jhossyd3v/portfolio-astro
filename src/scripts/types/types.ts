@@ -11,3 +11,5 @@ export type HeaderItem = HTMLAttributes<'a'> & {
   iconClassName: string[];
   menuText: string;
 }
+
+export type SocialItem = Omit<HeaderItem, 'menuText'>
