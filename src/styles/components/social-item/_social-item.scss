@@ -1,0 +1,27 @@
+@use "@styles/settings/variables" as  *;
+
+.social_item {
+  .item {
+    line-height: 0;
+
+    &__link {
+      display: block;
+
+      padding: 10px;
+
+      line-height: 0;
+      color: unset;
+      text-decoration: none;
+
+      border: 1px solid $ghost-white;
+      border-radius: 50%;
+
+      &:hover {
+        color: $liberty;
+        border-color: $liberty;
+      }
+    }
+
+    &__icon {}
+  }
+}
