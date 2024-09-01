@@ -22,7 +22,7 @@ const heroData = getDataByLang(data, lang)
         <ul class="content__social">
           {heroData.socials.map((item: any) => (
             <SocialItem
-              href={item.href}
+              href={item.url}
               ariaLabel={item.ariaLabel}
               iconClassName={item.classNames}
               target={item.target}
