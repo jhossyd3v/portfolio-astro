@@ -45,10 +45,10 @@
         "target": "_blank"
       },
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/jhossyd3v",
+        "name": "X",
+        "url": "https://x.com/jhossylab",
         "classNames": "devicon-twitter-original",
-        "ariaLabel": "Go to Jhossymar's Twitter",
+        "ariaLabel": "Go to Jhossymar's X",
         "target": "_blank"
       }
     ]
@@ -99,10 +99,10 @@
         "target": "_blank"
       },
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/jhossyd3v",
+        "name": "X",
+        "url": "https://x.com/jhossylab",
         "classNames": "devicon-twitter-original",
-        "ariaLabel": "Ir al Twitter de Jhossymar",
+        "ariaLabel": "Ir al X de Jhossymar",
         "target": "_blank"
       }
     ]
