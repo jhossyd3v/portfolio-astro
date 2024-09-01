@@ -7,7 +7,7 @@ import type { BaseProps } from "@scripts/types/types.ts";
 type Props = Pick<BaseProps, "lang">;
 
 const { lang = "en" } = Astro.props;
-const headerItems = getDataByLang(data[0], lang);
+const headerItems = getDataByLang(data, lang);
 ---
 
 <header class="header">
