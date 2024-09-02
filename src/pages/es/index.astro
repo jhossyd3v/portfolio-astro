@@ -1,8 +1,46 @@
 ---
 import Hero from '@components/Hero/Hero.astro';
 import Layout from '@layouts/Layout.astro';
+import interestsData from '@components/Cards/data/interests.json';
+import { getDataByLang } from '@scripts/utils';
+import InterestCard from '@components/Cards/InterestCard.astro';
+
+const interests = getDataByLang(interestsData, 'es');
 ---
 
 <Layout seoID='home' lang='es' addHeader>
   <Hero lang='es' />
+  <section class="page-section" id="about">
+    <h3 class="page-section__title">Sobre Mí</h3>
+    <p>¡Hola! Soy Jhossymar, un <b>Ingeniero en Sistemas</b>, graduado de la <b>Universidad de El Salvador FMOcc</b>, y he estado trabajando como desarrollador desde noviembre de 2017.</p>
+    <p>Hablo español (nativo) e inglés (conversacional).</p>
+    <p>A lo largo de mi trayectoria, he tenido la oportunidad de:</p>
+    <ul>
+      <li>Proponer ideas innovadoras para solucionar problemas mediante el uso de tecnología.</li>
+      <li>Diseñar y desarrollar nuevas funcionalidades que mejoran la experiencia del usuario y la eficiencia del software.</li>
+      <li>Crear páginas responsivas, aplicaciones web y material interactivo, como infografías.</li>
+      <li>Explorar y evaluar nuevas tecnologías para integrarlas en el software y optimizar los procesos de desarrollo.</li>
+      <li>Recopilar y analizar datos para diseñar visualizaciones claras y efectivas.</li>
+    </ul>
+    <p>Si estás buscando un profesional con <b>mi experiencia</b>:
+      <a class="button button--cv" href="/pdf/cv-jhossymar_contreras.pdf" target="_blank" aria-label="Descargar el currículum de Jhossymar">
+        <i class="fa-regular fa-file-pdf button__icon"></i> Descargar Currículum
+      </a>
+    </p>
+    <h4 class="interests__title">Mis Intereses</h4>
+    <ul class="interests">
+      {interests.map((interest) => (
+        <InterestCard {...interest} />
+      ))}
+    </ul>
+  </section>
+  <section class="page-section" id="projects">
+
+  </section>
+  <section class="page-section" id="experience">
+
+  </section>
+  <section class="page-section" id="skills">
+
+  </section>
 </Layout>

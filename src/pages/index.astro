@@ -1,12 +1,47 @@
 ---
 import Hero from '@components/Hero/Hero.astro';
 import Layout from '@layouts/Layout.astro';
+import interestsData from '@components/Cards/data/interests.json';
+import { getDataByLang } from '@scripts/utils';
+import InterestCard from '@components/Cards/InterestCard.astro';
+
+const interests = getDataByLang(interestsData, 'en');
 ---
 
 <Layout seoID='home' addHeader addFooter>
 	<main>
 		<Hero lang="en" />
-		<section class="about" id="about">
+		<section class="page-section" id="about">
+			<h3 class="page-section__title">About Me</h3>
+			<p>Hello! I'm Jhossymar, a <b>Systems Engineer</b>, graduated from <b>Universidad de El Salvador FMOcc</b>, and I have been working as Developer since November 2017.</p>
+			<p>I speak Spanish (native) and English (conversational).</p>
+			<p>Throughout my career, I have had the opportunity to:</p>
+			<ul>
+				<li>Propose innovative ideas to solve problems through the use of technology.</li>
+				<li>Design and develop new features that enhance user experience and software efficiency.</li>
+				<li>Create responsive pages, web applications, and interactive materials, such as infographics.</li>
+				<li>Explore and evaluate new technologies to integrate them into the software and optimize development processes.</li>
+				<li>Collect and analyze data to design clear and effective visualizations.</li>
+			</ul>
+			<p>If you're looking for a professional with <b>my experience</b>:
+				<a class="button button--cv" href="/pdf/cv-jhossymar_contreras.pdf" target="_blank" aria-label="Download Jhossymar's resume">
+					<i class="fa-regular fa-file-pdf button__icon"></i> Download Resume
+				</a>
+			</p>
+			<h4 class="interests__title">My Interests</h4>
+			<ul class="interests">
+				{interests.map((interest) => (
+					<InterestCard {...interest} />
+				))}
+			</ul>
+		</section>
+		<section class="page-section" id="projects">
+
+		</section>
+		<section class="page-section" id="experience">
+
+		</section>
+		<section class="page-section" id="skills">
 
 		</section>
 	</main>
