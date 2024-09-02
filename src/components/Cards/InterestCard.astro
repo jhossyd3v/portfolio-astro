@@ -1,0 +1,13 @@
+---
+import type { Interest } from '@scripts/types/types'
+
+type Props = Interest
+
+const { iconClassName, title, description } = Astro.props
+---
+
+<li class="interest">
+  <i class:list={["interest__icon", iconClassName]}></i>
+  <h5 class="interest__title">{title}</h5>
+  <p class="interest__description" set:html={description}></p>
+</li>
