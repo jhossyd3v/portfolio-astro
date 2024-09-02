@@ -1,12 +1,27 @@
 @use "@styles/settings/variables" as  *;
 
-html {
-  scroll-behavior: smooth;
+.page-section {
+  &#about {
+    min-height: auto;
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+      list-style: none;
+    }
+
+    h4 {
+      margin: 15px 0 5px;
+    }
+  }
 }
 
-body {
-  font-family: $font-kufam;
-  line-height: 1.5;
-  color: $ghost-white;
-  background: $dark-gunmetal;
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media screen and (min-width: 1024px) {
+    padding-right: 35px;
+  }
 }
