@@ -3,7 +3,7 @@ import createSEOData from '@components/AstroSEO/data/astro-seo'
 import type { BaseProps } from '@scripts/types/types'
 import { SEO } from 'astro-seo'
 
-type Props = Omit<BaseProps, 'className'>
+type Props = Omit<BaseProps, 'classNames'>
 
 const { id = "default", lang = "en" } = Astro.props
 const data = createSEOData(id, lang)

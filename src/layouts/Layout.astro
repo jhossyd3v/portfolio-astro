@@ -15,7 +15,7 @@ type Props = {
 	addFooter?: boolean;
 } & Omit<BaseProps, "id">;
 
-const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytics = false, addHeader = false, addFooter = false, className = []} = Astro.props;
+const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytics = false, addHeader = false, addFooter = false, classNames = []} = Astro.props;
 ---
 
 <!doctype html>
@@ -27,7 +27,7 @@ const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytic
 		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<slot name="page-styles"></slot>
 	</head>
-	<body class:list={[...className]}>
+	<body class:list={[...classNames]}>
 		{addBodyAnalytics && <BodyAnalytics/>}
 		{addHeader && <Header lang={lang} />}
 		<slot />

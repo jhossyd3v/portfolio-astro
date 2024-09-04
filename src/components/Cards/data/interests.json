@@ -2,64 +2,64 @@
   "en": [
     {
       "title": "Anime",
-      "icon": ["fa-solid","fa-tv"],
+      "iconClassNames": ["fa-solid","fa-tv"],
       "description": "<b>Favorites:</b> Haikyuu, Hunter x Hunter, Fairy Tail"
     },
     {
       "title": "Music",
-      "icon": ["fa-solid","fa-headphones"],
+      "iconClassNames": ["fa-solid","fa-headphones"],
       "description": "<b>Favorites:</b> Juan Luis Guerra, Grupo Niche, Maroon 5"
     },
     {
       "title": "Sports",
-      "icon": ["fa-solid","fa-futbol"],
+      "iconClassNames": ["fa-solid","fa-futbol"],
       "description": "<b>Favorites:</b> Soccer, Basketball, Baseball, NFL"
     },
     {
       "title": "Games",
-      "icon": ["fa-solid","fa-gamepad"],
+      "iconClassNames": ["fa-solid","fa-gamepad"],
       "description": "<b>Favorites:</b> Hearthstone, Fire Emblem, FIFA"
     },
     {
       "title": "Series",
-      "icon": ["fa-solid","fa-tv"],
+      "iconClassNames": ["fa-solid","fa-tv"],
       "description": "<b>Favorites:</b> Dr. Who, Dr. House, The Mentalist"
     },
     {
       "title": "Cinema",
-      "icon": ["fa-solid","fa-film"],
+      "iconClassNames": ["fa-solid","fa-film"],
       "description": "<b>Favorites:</b> Your Name, Interstellar, The Intern"
     }
   ],
   "es": [
     {
       "title": "Anime",
-      "icon": ["fa-solid","fa-tv"],
+      "iconClassNames": ["fa-solid","fa-tv"],
       "description": "<b>Favoritos:</b> Haikyuu, Hunter x Hunter, Fairy Tail"
     },
     {
       "title": "Música",
-      "icon": ["fa-solid","fa-headphones"],
+      "iconClassNames": ["fa-solid","fa-headphones"],
       "description": "<b>Favoritos:</b> Juan Luis Guerra, Grupo Niche, Maroon 5"
     },
     {
       "title": "Deportes",
-      "icon": ["fa-solid","fa-futbol"],
+      "iconClassNames": ["fa-solid","fa-futbol"],
       "description": "<b>Favoritos:</b> Fútbol, Baloncesto, Béisbol, NFL"
     },
     {
       "title": "Juegos",
-      "icon": ["fa-solid","fa-gamepad"],
+      "iconClassNames": ["fa-solid","fa-gamepad"],
       "description": "<b>Favoritos:</b> Hearthstone, Fire Emblem, FIFA"
     },
     {
       "title": "Series",
-      "icon": ["fa-solid","fa-tv"],
+      "iconClassNames": ["fa-solid","fa-tv"],
       "description": "<b>Favoritos:</b> Dr. Who, Dr. House, The Mentalist"
     },
     {
       "title": "Cine",
-      "icon": ["fa-solid","fa-film"],
+      "iconClassNames": ["fa-solid","fa-film"],
       "description": "<b>Favoritos:</b> Your Name, Interstellar, The Intern"
     }
   ]

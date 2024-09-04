@@ -3,11 +3,11 @@ import type { SocialItem } from '@scripts/types/types'
 
 type Props = SocialItem
 
-const {ariaLabel, iconClassName, href, ...attrs } = Astro.props;
+const {ariaLabel, iconClassNames, href, ...attrs } = Astro.props;
 ---
 
 <li class="social__item">
   <a class="item__link" href={href} aria-label={ariaLabel} {...attrs}>
-    <i class:list={['item__icon', iconClassName]}></i>
+    <i class:list={['item__icon', iconClassNames]}></i>
   </a>
 </li>

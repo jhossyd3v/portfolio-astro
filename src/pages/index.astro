@@ -4,6 +4,7 @@ import Layout from '@layouts/Layout.astro';
 import interestsData from '@components/Cards/data/interests.json';
 import { getDataByLang } from '@scripts/utils';
 import InterestCard from '@components/Cards/InterestCard.astro';
+import type { Interest } from '@scripts/types/types';
 
 const interests = getDataByLang(interestsData, 'en');
 ---
@@ -30,19 +31,20 @@ const interests = getDataByLang(interestsData, 'en');
 			</p>
 			<h4 class="interests__title">My Interests</h4>
 			<ul class="interests">
-				{interests.map((interest) => (
+				{interests.map((interest:Interest) => (
 					<InterestCard {...interest} />
 				))}
 			</ul>
 		</section>
 		<section class="page-section" id="projects">
-
+			<h3 class="page-section__title">Portfolio</h3>
+			<section class="projects"></section>
 		</section>
 		<section class="page-section" id="experience">
-
+			<h3 class="page-section__title">Experience</h3>
 		</section>
 		<section class="page-section" id="skills">
-
+			<h3 class="page-section__title">Skills</h3>
 		</section>
 	</main>
 </Layout>
