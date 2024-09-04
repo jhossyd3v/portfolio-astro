@@ -3,13 +3,23 @@ const headerDesktopMQ = window.matchMedia('(min-width: 1024px)');
 const setMenuHeightAsHeaderHeight = () => {
   const header = document.querySelector('.header');
   let newHeaderHeight = 0
+  let footerHeaderHeight = 0;
 
   if(headerDesktopMQ.matches) {
     const headerMenu = header.querySelector('.header__menu');
     newHeaderHeight = headerMenu.offsetHeight + 1;
+  } else {
+    const headerMenu = header.querySelector('.header__menu');
+    footerHeaderHeight = headerMenu.offsetHeight + 1;
+
   }
 
   header.style.setProperty('--header-height', `${newHeaderHeight}px`);
+
+  const footer = document.querySelector('.footer');
+  if(footer) {
+    footer.style.setProperty('--header-height', `${footerHeaderHeight}px`);
+  }
 }
 
 const getClosestAnchorTag = (element) => {

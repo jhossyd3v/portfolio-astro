@@ -1,0 +1,16 @@
+---
+import { getDataByLang } from '@scripts/utils';
+import data from './data/footer-items.json';
+import type { BaseProps } from '@scripts/types/types';
+
+type Props = Pick<BaseProps, 'lang'>;
+
+const { lang = 'en' } = Astro.props
+
+const footerData = getDataByLang(data, lang);
+---
+
+<footer class="footer">
+  <p set:html={footerData['first-column']}></p>
+  <p set:html={footerData['second-column']}></p>
+</footer>
