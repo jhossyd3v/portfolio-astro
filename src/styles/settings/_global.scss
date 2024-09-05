@@ -92,6 +92,10 @@ p {
   &:hover {
     color: $liberty;
     background-color: $ghost-white;
+
+    .icon {
+      background-color: $liberty;
+    }
   }
 
   &__icon {

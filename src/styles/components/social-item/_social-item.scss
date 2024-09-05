@@ -12,6 +12,10 @@
       &:hover {
         color: $liberty;
         border-color: $liberty;
+
+        .icon {
+          background-color: $liberty;
+        }
       }
     }
   }
