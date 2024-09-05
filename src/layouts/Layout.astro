@@ -23,8 +23,6 @@ const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytic
 	<head>
 		{addHeadAnalytics && <HeadAnalytics/>}
 		<AstroSEO id={seoID} lang={lang} />
-		<link href="/assets/vendor/fontawesome/css/all.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
 		<slot name="page-styles"></slot>
 	</head>
 	<body class:list={[...classNames]}>

@@ -1,10 +1,10 @@
 {
   "en": {
-    "first-column": "Repository: <a href='https://github.com/jhossyd3v/portfolio-astro' target='_blank'><i class='devicon-github-original'></i> GitHub</a>",
-    "second-column": "Technologies & Libraries: <ul><li><i class='devicon-astro-plain'></i> Astro</li><li><i class='devicon-javascript-plain'></i> Javascript</li><li><i class='devicon-typescript-plain'></i> Typescript</li><li><i class='devicon-html5-plain'></i> HTML</li><li><i class='devicon-css3-plain'></i> CSS</li><li><i class='fa-solid fa-font-awesome'></i> Font Awesome</li><li><i class='devicon-devicon-plain'></i> Devicon</li></ul>"
+    "first-column": "Repository: <a href='https://github.com/jhossyd3v/portfolio-astro' target='_blank'><i class='icon icon--github'></i> GitHub</a>",
+    "second-column": "Technologies & Libraries: <ul><li><i class='tech-icon tech-icon--astro'></i> Astro</li><li><i class='tech-icon tech-icon--javascript'></i> Javascript</li><li><i class='tech-icon tech-icon--typescript'></i> Typescript</li><li><i class='tech-icon tech-icon--html'></i> HTML</li><li><i class='tech-icon tech-icon--css'></i> CSS</li><li><i class='icon icon--font-awesome'></i> Font Awesome</li><li><i class='tech-icon tech-icon--svgl'></i> SVGL</li></ul>"
   },
   "es": {
-    "first-column": "Repositorio: <a href='https://github.com/jhossyd3v/portfolio-astro' target='_blank'><i class='devicon-github-original'></i> GitHub</a>",
-    "second-column": "Tecnologías & Librerías: <ul><li><i class='devicon-astro-plain'></i> Astro</li><li><i class='devicon-javascript-plain'></i> Javascript</li><li><i class='devicon-typescript-plain'></i> Typescript</li><li><i class='devicon-html5-plain'></i> HTML</li><li><i class='devicon-css3-plain'></i> CSS</li><li><i class='fa-solid fa-font-awesome'></i> Font Awesome</li><li><i class='devicon-devicon-plain'></i> Devicon</li></ul>"
+    "first-column": "Repositorio: <a href='https://github.com/jhossyd3v/portfolio-astro' target='_blank'><i class='icon icon--github'></i> GitHub</a>",
+    "second-column": "Tecnologías & Librerías: <ul><li><i class='tech-icon tech-icon--astro'></i> Astro</li><li><i class='tech-icon tech-icon--javascript'></i> Javascript</li><li><i class='tech-icon tech-icon--typescript'></i> Typescript</li><li><i class='tech-icon tech-icon--html'></i> HTML</li><li><i class='tech-icon tech-icon--css'></i> CSS</li><li><i class='icon icon--font-awesome'></i> Font Awesome</li><li><i class='tech-icon tech-icon--svgl'></i> SVGL</li></ul>"
   }
 }

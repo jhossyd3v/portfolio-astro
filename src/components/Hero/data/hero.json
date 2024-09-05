@@ -6,48 +6,48 @@
       {
         "name": "Email",
         "url": "mailto:contact@jhossy.dev",
-        "classNames": "fa-solid fa-envelope",
+        "classNames": "icon icon--envelope",
         "ariaLabel": "Send an email to Jhossymar"
       },
       {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/jhossyd3v/",
-        "classNames": "devicon-linkedin-plain",
+        "classNames": "icon icon--linkedin",
         "ariaLabel": "Go to Jhossymar's LinkedIn",
         "target": "_blank"
       },
       {
         "name": "GitHub",
         "url": "https://github.com/jhossyd3v",
-        "classNames": "devicon-github-original",
+        "classNames": "icon icon--github",
         "ariaLabel": "Go to Jhossymar's GitHub",
         "target": "_blank"
       },
       {
         "name": "Hashnode",
         "url": "https://hashnode.com/@jhossyd3v",
-        "classNames": "fa-brands fa-hashnode",
+        "classNames": "icon icon--hashnode",
         "ariaLabel": "Go to Jhossymar's Hashnode",
         "target": "_blank"
       },
       {
         "name": "DEV",
         "url": "https://dev.to/jhossyd3v",
-        "classNames": "fa-brands fa-dev",
+        "classNames": "icon icon--dev-to",
         "ariaLabel": "Go to Jhossymar's Dev.to",
         "target": "_blank"
       },
       {
         "name": "CodePen",
         "url": "https://codepen.io/jhossyd3v",
-        "classNames": "devicon-codepen-plain",
+        "classNames": "icon icon--codepen",
         "ariaLabel": "Go to Jhossymar's CodePen",
         "target": "_blank"
       },
       {
         "name": "X",
         "url": "https://x.com/jhossylab",
-        "classNames": "devicon-twitter-original",
+        "classNames": "icon icon--x-twitter",
         "ariaLabel": "Go to Jhossymar's X",
         "target": "_blank"
       }
@@ -60,48 +60,48 @@
       {
         "name": "Email",
         "url": "mailto:contacto@jhossy.dev",
-        "classNames": "fa-solid fa-envelope",
+        "classNames": "icon icon--envelope",
         "ariaLabel": "Enviar un correo a Jhossymar"
       },
       {
         "name": "LinkedIn",
         "url": "https://www.linkedin.com/in/jhossyd3v/",
-        "classNames": "devicon-linkedin-plain",
+        "classNames": "icon icon--linkedin",
         "ariaLabel": "Ir al LinkedIn de Jhossymar",
         "target": "_blank"
       },
       {
         "name": "GitHub",
         "url": "https://github.com/jhossyd3v",
-        "classNames": "devicon-github-original",
+        "classNames": "icon icon--github",
         "ariaLabel": "Ir al GitHub de Jhossymar",
         "target": "_blank"
       },
       {
         "name": "Hashnode",
         "url": "https://hashnode.com/@jhossyd3v",
-        "classNames": "fa-brands fa-hashnode",
+        "classNames": "icon icon--hashnode",
         "ariaLabel": "Ir al Hashnode de Jhossymar",
         "target": "_blank"
       },
       {
         "name": "DEV",
         "url": "https://dev.to/jhossyd3v",
-        "classNames": "fa-brands fa-dev",
+        "classNames": "icon icon--dev-to",
         "ariaLabel": "Ir al Dev.to de Jhossymar",
         "target": "_blank"
       },
       {
         "name": "CodePen",
         "url": "https://codepen.io/jhossyd3v",
-        "classNames": "devicon-codepen-plain",
+        "classNames": "icon icon--codepen",
         "ariaLabel": "Ir al CodePen de Jhossymar",
         "target": "_blank"
       },
       {
         "name": "X",
         "url": "https://x.com/jhossylab",
-        "classNames": "devicon-twitter-original",
+        "classNames": "icon icon--x-twitter",
         "ariaLabel": "Ir al X de Jhossymar",
         "target": "_blank"
       }

@@ -4,12 +4,12 @@ import type { HeaderItem } from '@scripts/types/types'
 
 type Props = HeaderItem
 
-const {ariaLabel, iconclassNames, menuText, href, ...attrs } = Astro.props
+const {ariaLabel, iconClassNames, menuText, href, ...attrs } = Astro.props
 ---
 
 <li class:list={["header__item", "header__item--sub"]}>
   <a class="item__link" href={href} aria-label={ariaLabel} {...attrs}>
-      <i class:list={['item__icon', iconclassNames]}></i>
+      <i class:list={['item__icon', iconClassNames]}></i>
       <span class="item__text">{menuText}</span>
   </a>
 </li>

@@ -3,37 +3,37 @@
         {
             "menuText": "Home",
             "menuLink": "/#",
-            "iconClasses": ["fa-solid", "fa-house"],
+            "iconClasses": ["icon", "icon--house"],
             "ariaLabel": "Go to Home Page"
         },
         {
             "menuText": "About",
             "menuLink": "#about",
-            "iconClasses": ["fa-solid", "fa-user"],
+            "iconClasses": ["icon", "icon--user"],
             "ariaLabel": "Go to About Section"
         },
         {
             "menuText": "Portfolio",
             "menuLink": "#projects",
-            "iconClasses": ["fa-solid", "fa-laptop-code"],
+            "iconClasses": ["icon", "icon--laptop-code"],
             "ariaLabel": "Go to Portfolio Section"
         },
         {
             "menuText": "Experience",
             "menuLink": "#experience",
-            "iconClasses": ["fa-solid", "fa-briefcase"],
+            "iconClasses": ["icon", "icon--briefcase"],
             "ariaLabel": "Go to Experience Section"
         },
         {
             "menuText": "Skills",
             "menuLink": "#skills",
-            "iconClasses": ["fa-solid", "fa-code"],
+            "iconClasses": ["icon", "icon--code"],
             "ariaLabel": "Go to Skills Section"
         },
         {
             "menuText": "Blog",
             "menuLink": "https://blog.jhossy.dev",
-            "iconClasses": ["fa-solid", "fa-pencil"],
+            "iconClasses": ["icon", "icon--pencil"],
             "ariaLabel": "Go to Blog",
             "target": "_blank"
         }
@@ -42,37 +42,37 @@
         {
             "menuText": "Inicio",
             "menuLink": "#",
-            "iconClasses": ["fa-solid", "fa-house"],
+            "iconClasses": ["icon", "icon--house"],
             "ariaLabel": "Ir a la Página de Inicio"
         },
         {
             "menuText": "Sobre Mí",
             "menuLink": "#about",
-            "iconClasses": ["fa-solid", "fa-user"],
+            "iconClasses": ["icon", "icon--user"],
             "ariaLabel": "Ir a la sección Sobre Mí"
         },
         {
             "menuText": "Portafolio",
             "menuLink": "#projects",
-            "iconClasses": ["fa-solid", "fa-laptop-code"],
+            "iconClasses": ["icon", "icon--laptop-code"],
             "ariaLabel": "Ir a la sección Portafolio"
         },
         {
             "menuText": "Experiencia",
             "menuLink": "#experience",
-            "iconClasses": ["fa-solid", "fa-briefcase"],
+            "iconClasses": ["icon", "icon--briefcase"],
             "ariaLabel": "Ir a la sección Experiencia"
         },
         {
             "menuText": "Habilidades",
             "menuLink": "#skills",
-            "iconClasses": ["fa-solid", "fa-code"],
+            "iconClasses": ["icon", "icon--code"],
             "ariaLabel": "Ir a la sección Habilidades"
         },
         {
             "menuText": "Blog",
             "menuLink": "https://blog.jhossy.dev",
-            "iconClasses": ["fa-solid", "fa-pencil"],
+            "iconClasses": ["icon", "icon--pencil"],
             "ariaLabel": "Ir al Blog",
             "target": "_blank"
         }
