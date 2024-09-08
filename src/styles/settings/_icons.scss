@@ -1,6 +1,9 @@
 @use "@styles/settings/variables" as *;
 
 $icons: 'briefcase',
+        'building',
+        'calendar',
+        'circle-info',
         'code',
         'codepen',
         'dev-to',
@@ -13,14 +16,15 @@ $icons: 'briefcase',
         'headphones',
         'house',
         'laptop-code',
+        'link',
         'linkedin',
         'pencil',
         'soccer',
+        'tag',
         'tv',
         'user',
         'x-twitter',
-        'pdf',
-        'typescript';
+        'pdf';
 $tech-icons: 'typescript',
               'svgl',
               'astro',
