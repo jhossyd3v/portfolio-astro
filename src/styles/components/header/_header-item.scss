@@ -2,7 +2,7 @@
 
 .header__item {
   width: calc(100% / 6);
-  border-right: 1px solid $ghost-white;
+  border-right: 1px solid $bright-gray;
 
   &:last-child {
     border: none;
@@ -20,19 +20,19 @@
       width: 100%;
       padding: 20px 0;
 
-      color: $ghost-white;
+      color: $bright-gray;
       text-align: center;
       text-decoration: none;
 
-      background-color: $dark-gunmetal;
+      background-color: $chinese-black;
 
       &:hover {
         background-color: $liberty;
 
         @media screen and (min-width: 1024px) {
           position: relative;
-          color: $ghost-white;
-          background-color: $dark-gunmetal;
+          color: $bright-gray;
+          background-color: $chinese-black;
 
           &::before,
           &::after {
@@ -47,7 +47,7 @@
             width: 35px;
             height: 5px;
 
-            background-color: $liberty;
+            background-color: $bright-gray;
           }
 
           &::after {

@@ -1,0 +1,70 @@
+@use "@styles/settings/variables" as  *;
+
+.experience-card {
+  box-sizing: border-box;
+  max-width: 310px;
+  height: fit-content;
+  margin: 10px 0;
+  padding: 10px;
+
+  color: $chinese-black;
+
+  background-color: $bright-gray;
+  border-radius: 15px 0;
+
+  .experience {
+    &__title {
+      margin-bottom: 5px;
+    }
+
+    &__description {
+      margin-bottom: 5px;
+    }
+
+    &__information {
+      box-sizing: border-box;
+      margin: 0;
+      margin-top: 10px;
+    }
+
+    &__date-range {
+      font-size: 14px;
+    }
+  }
+
+  .icon {
+    background-color: $chinese-black;
+  }
+
+  .technologies {
+    display: flex;
+    padding-top: 10px;
+    padding-left: 0;
+    list-style-type: none;
+
+
+    .technology {
+      display:flex;
+      align-items: center;
+      justify-content: center;
+
+      width: fit-content;
+      padding: 5px;
+
+      color: $bright-gray;
+
+      background-color: $amaranth-deep-purple;
+      border-radius: 10px;
+    }
+  }
+
+  &--current {
+    color: $bright-gray;
+    background-color: $chinese-black;
+
+    .icon {
+      background-color: $bright-gray;
+    }
+  }
+
+}

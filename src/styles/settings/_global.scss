@@ -7,8 +7,8 @@ html {
 body {
   font-family: $font-kufam;
   line-height: 1.5;
-  color: $ghost-white;
-  background: $dark-gunmetal;
+  color: $bright-gray;
+  background: $american-purple;
 }
 
 main {
@@ -28,10 +28,11 @@ p {
 
   font-family: $font-niramit;
 
-  background-color: $dark-gunmetal;
+  background-color: $dark-purple;
+  border-bottom: 1px solid $bright-gray;
 
-  &:nth-child(even) {
-    background-color: $charleston-green;
+  &:nth-child(odd) {
+    background-color: $russian-violet;
   }
 
   &__title {
@@ -57,7 +58,7 @@ p {
       width: 35px;
       height: 5px;
 
-      background-color: $liberty;
+      background-color: $bright-gray;
     }
 
     &::after {
@@ -76,26 +77,40 @@ p {
   }
 }
 
-.button {
+a {
+  color: $royal-health;
+  text-decoration: none;
+
+  &:hover {
+    color: $royal-health-20;
+    text-decoration: underline;
+  }
+}
+
+strong {
+  color: $white;
+}
+
+.button,
+a.button {
   display: inline-block;
 
   box-sizing: border-box;
   padding: 10px;
 
   font-weight: bold;
-  color: $ghost-white;
+  color: $bright-gray;
   text-decoration: none;
 
-  background-color: $liberty;
+  background-color: $royal-health;
   border-radius: 5px;
 
   &:hover {
-    color: $liberty;
-    background-color: $ghost-white;
+    background-color: $royal-health-20;
+  }
 
-    .icon {
-      background-color: $liberty;
-    }
+  &:focus {
+    background-color: $royal-health-40;
   }
 
   &__icon {

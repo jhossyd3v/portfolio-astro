@@ -5,17 +5,18 @@
     line-height: 0;
 
     &__link {
-      display: block;
+      display: flex;
+      align-items: center;
+
+      padding: 5px;
+
       color: unset;
       text-decoration: none;
 
-      &:hover {
-        color: $liberty;
-        border-color: $liberty;
+      border-radius: 50%;
 
-        .icon {
-          background-color: $liberty;
-        }
+      &:hover {
+        background-color: $amaranth-deep-purple;
       }
     }
   }

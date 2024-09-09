@@ -7,7 +7,10 @@
     ul {
       margin: 0;
       padding-left: 20px;
-      list-style: none;
+
+      li:not(.interest) {
+        padding-bottom: 5px;
+      }
     }
 
     h4 {
@@ -24,4 +27,11 @@
   @media screen and (min-width: 1024px) {
     padding-right: 20px;
   }
+}
+
+.experiences {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 10px 0;
 }

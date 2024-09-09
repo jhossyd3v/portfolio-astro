@@ -1,79 +1,78 @@
-@import "../../settings/variables";
+@use "@styles/settings/variables" as  *;
 
-.cjdev {
-  &__switch {
-    box-sizing: border-box;
-    padding: 10px;
-    width: 100%;
+.switch {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
 
-    &__checkbox {
-      height: 0;
-      opacity: 0;
-      width: 0;
+  &__label {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
 
-      &_label {
-        display: inline-block;
-        height: 34px;
-        position: relative;
-        width: 60px;
-      }
+  &__slider {
+    cursor: pointer;
 
-      &:checked + .cjdev__switch__slider {
-        background-color: $liberty;
+    position: absolute;
+    inset: 0;
 
-        &::before {
-          transform: translateX(26px);
-        }
-      }
+    background-color: $royal-health;
+    border-radius: 34px;
 
-      &:focus + .cjdev__switch__slider {
-        box-shadow: 0 0 1px $liberty;
-      }
+    transition: 0.4s;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+      bottom: 4px;
+      left: 4px;
+
+      width: 26px;
+      height: 26px;
+
+      background-color: $bright-gray;
+      border-radius: 50%;
+
+      transition: 0.4s;
     }
 
-    &__slider {
-      background-color: $ghost-white;
-      border-radius: 34px;
-      bottom: 0;
-      cursor: pointer;
-      left: 0;
+    &::after {
+      content: "Show used technologies";
+
       position: absolute;
-      right: 0;
       top: 0;
-      transition: 0.4s;
+      bottom: 0;
+      left: 105%;
 
-      &::before {
-        background-color: $black-olive;
-        border-radius: 50%;
-        bottom: 4px;
-        content: "";
-        height: 26px;
-        left: 4px;
-        position: absolute;
-        transition: 0.4s;
-        width: 26px;
-      }
-
-      &::after {
-        bottom: 0;
-        content: "Show/Hide used technologies";
-        height: fit-content;
-        left: 105%;
-        margin: auto;
-        position: absolute;
-        top: 0;
-        width: 250px;
-      }
+      width: 250px;
+      height: fit-content;
+      margin: auto;
     }
   }
 
-  &__experience--active {
-    .cjdev__switch__slider {
-      background-color: $black-olive;
+  &__checkbox {
+    width: 0;
+    height: 0;
+    opacity: 0;
+
+
+    &:checked + .switch__slider {
+      background-color: $royal-health-40;
 
       &::before {
-        background-color: $ghost-white;
+        transform: translateX(26px);
       }
+    }
+
+    &:checked + .switch__slider::after {
+      content: "Hide used technologies";
+    }
+
+    &:focus + .switch__slider {
+      box-shadow: 0 0 1px $royal-health-40;
     }
   }
 }

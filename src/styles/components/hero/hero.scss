@@ -60,7 +60,7 @@
       width: 100%;
       padding: 130px 10px 20px;
 
-      background-color: $charleston-green;
+      background-color: $chinese-black;
 
       h1,
       h2 {
@@ -87,6 +87,7 @@
 
     &__social {
       display: flex;
+      align-items: center;
       justify-content: space-evenly;
 
       width: 100%;
