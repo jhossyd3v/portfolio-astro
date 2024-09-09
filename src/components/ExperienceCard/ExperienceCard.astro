@@ -1,0 +1,41 @@
+---
+  import Switch from '@components/Switch/Switch.astro'
+import type { Experience } from '@scripts/types/types'
+
+  type Props = Experience
+
+  const { companyId, company, position, description, range, informationItems, technologies, isCurrent = false } = Astro.props
+---
+
+<article class:list={["experience-card" , {"experience-card--current": isCurrent}]}>
+  <h4 class="experience__company">
+    <i class="icon icon--building"></i> {company}
+  </h4>
+  <span class="experience__date-range">
+    <i class="icon icon--calendar"></i> {range}
+  </span>
+  <h5 class="experience__position">
+    <i class="icon icon--briefcase"></i> {position}
+  </h5>
+  <p class="experience__description">
+    <i class="icon icon--circle-info"></i> {description}
+  </p>
+  <hr>
+  <ul class="experience__information">
+    {informationItems.map((item) => (
+      <li class="experience__information-item">
+        {item}
+      </li>
+    ))}
+  </ul>
+  <Switch id={companyId}>
+    <ul class="technologies" slot="switch-content">
+      {technologies.map((technology) => (
+        <li class="technology">
+          <i class:list={[technology.iconClassNames]}></i>
+          <span class="technology__name">{technology.name}</span>
+        </li>
+      ))}
+    </ul>
+  </Switch>
+</article>
