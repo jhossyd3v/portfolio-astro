@@ -38,7 +38,7 @@ const getTargetElement = (href) => {
 
 const calculateOffsetPosition = (targetElement, headerHeight) => {
   const targetElementPosition = targetElement.getBoundingClientRect().top;
-  const windowScrollY = window.scrollY || window.pageYOffset;
+  const windowScrollY = window.scrollY;
 
   return targetElementPosition + windowScrollY - headerHeight;
 }
