@@ -1,0 +1,17 @@
+---
+  type Props = {
+    id: string;
+  };
+
+  const { id } = Astro.props;
+---
+
+<div class="switch">
+  <label class="switch__label" for=`switch-${id}`>
+    <input class="switch__checkbox" type="checkbox" data-company={id} name=`switch-${id}` id=`switch-${id}`>
+    <span class="switch__slider"></span>
+  </label>
+  <div class="switch__content">
+    <slot name="switch-content"></slot>
+  </div>
+</div
