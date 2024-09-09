@@ -19,3 +19,19 @@ export type Interest = {
   description: string;
   iconClassNames: string[];
 }
+
+export type Experience = {
+  companyId: string;
+  company: string;
+  position: string;
+  description: string;
+  range: string;
+  informationItems: string[];
+  technologies: Technology[];
+  isCurrent?: boolean;
+}
+
+export type Technology = {
+  name: string;
+  iconClassNames: string[];
+}
