@@ -1,0 +1,90 @@
+{
+  "en": [
+    {
+      "company": "JDK Oustanding Technologies",
+      "range": "(Mar 2023 - Present)",
+      "position": "Frontend Developer",
+      "description": "JDK Outstanding Technologies is a leading web development company dedicated to delivering innovative and customized digital solutions.",
+      "informationItems": [
+        "Implement provided designs into functional web pages.",
+        "Review and analyze pull requests to ensure alignment with client requirements and team needs.",
+        "Lead the team on various projects.",
+        "Contribute to structural and design decisions.",
+        "Support colleagues and assist with problem-solving."
+      ],
+      "isCurrent": true
+    },
+    {
+      "company": "La Prensa Gráfica",
+      "range": "(Dec 2020 - Mar 2023)",
+      "position": "Web Developer",
+      "description": "La Prensa Gráfica is one of the newspapers with large circulation in El Salvador.",
+      "informationItems": [
+        "Developing responsive web apps and web interactive charts and infographics.",
+        "Developing web apps for streaming/television sports shows.",
+        "Proposing innovative ideas to resolve issues with technology.",
+        "Improved UI/UX design of Séptimo Sentido's Website.",
+        "Collecting and analyzing data to create visualizations.",
+        "Creating landing pages for Séptimo Sentido's researches.",
+        "Creating scripts to automate downloads of multiple files and data."
+      ],
+      "isCurrent": false
+    },
+    {
+      "company": "Supertex El Salvador",
+      "range": "(Nov 2017 - Dec 2020)",
+      "position": "PHP and Fronend Developer",
+      "description": "Supertex El Salvador is a company focused on being a leader in the manufacture of sportswear.",
+      "informationItems": [
+        "Designed and developed new features of the manufacturing software in the company.",
+        "Modified code to fix errors.",
+        "Researched about new technologies that could be added to the software or the development process."
+      ],
+      "isCurrent": false
+    }
+  ],
+  "es": [
+    {
+      "company": "JDK Oustanding Technologies",
+      "range": "(Mar 2023 - Presente)",
+      "position": "Desarrollador Frontend",
+      "description": "JDK Outstanding Technologies es una empresa líder en desarrollo web dedicada a ofrecer soluciones digitales innovadoras y personalizadas.",
+      "informationItems": [
+        "Implementar diseños proporcionados en páginas web funcionales.",
+        "Revisar y analizar pull requests para garantizar la alineación con los requisitos del cliente y las necesidades del equipo.",
+        "Liderar el equipo en varios proyectos.",
+        "Contribuir a decisiones estructurales y de diseño.",
+        "Apoyar a los colegas y ayudar con la resolución de problemas."
+      ],
+      "isCurrent": true
+    },
+    {
+      "company": "La Prensa Gráfica",
+      "range": "(Dic 2020 - Mar 2023)",
+      "position": "Desarrollador Web",
+      "description": "La Prensa Gráfica es uno de los periódicos con mayor circulación en El Salvador.",
+      "informationItems": [
+        "Desarrollar aplicaciones web responsivas y gráficos interactivos e infografias.",
+        "Desarrollar aplicaciones web para programas deportivos de streaming/televisión.",
+        "Proponer ideas innovadoras para resolver problemas con tecnología.",
+        "Mejorar el diseño UI/UX del sitio web de Séptimo Sentido.",
+        "Recopilar y analizar datos para crear visualizaciones.",
+        "Crear landing pages para las investigaciones de Séptimo Sentido.",
+        "Crear scripts para automatizar descargas de múltiples archivos y datos."
+      ],
+      "isCurrent": false
+    },
+    {
+      "company": "Supertex El Salvador",
+      "range": "(Nov 2017 - Dic 2020)",
+      "position": "Desarrollador PHP y Frontend",
+      "description": "Supertex El Salvador es una empresa enfocada en ser líder en la fabricación de ropa deportiva.",
+      "informationItems": [
+        "Diseñé y desarrollé nuevas características del software de fabricación de la empresa.",
+        "Modifiqué el código para corregir errores.",
+        "Investigué sobre nuevas tecnologías que podrían agregarse al software o al proceso de desarrollo."
+      ],
+      "isCurrent": false
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+---
+import type { Project } from '@scripts/types/types'
+
+
+type Props = Omit<Project, 'order'>
+
+
+const { id, title, type, typeText, links, descriptions, tags, technologies } = Astro.props
+---
+
+<article class="project" data-tags={tags.join(';')}>
+  <figure class="project__image-container">
+      <img class="project__image" src=`/assets/images/projects/${type}${id}_desktop001.png` alt="preview image" loading="lazy">
+      <h4 class="project__type">
+          <i class="type__icon icon icon--building"></i>
+          <span class="type__text">{typeText}</span>
+      </h4>
+  </figure>
+  <section class="project__information">
+      <h4 class="project__title">{title}</h4>
+      {links.length > 0 && (
+          <ul class="project__links">
+              {links.map((link) => (
+                  <li class="project__link">
+                      <a class="link__item button" href={link.link}>
+                          <i class:list={["link__icon", link.iconClassNames]}></i>
+                          <span class="link__text">{link.text}</span>
+                      </a>
+                  </li>
+              ))}
+          </ul>
+      )}
+      <hr>
+      <section class="project__description">
+          <i class="description__icon icon icon--circle-info"></i>
+          {
+            descriptions.map((paragraph) => (
+              <p class="description__text">{paragraph}</p>
+            ))
+          }
+      </section>
+      <hr>
+      {technologies.length > 0 && (
+          <ul class="project__technologies">
+              {technologies.map((tech) => (
+                  <li class="technology__item">
+                      <i class:list={tech.iconClassNames}></i>
+                      <span class="technology__text">{tech.text}</span>
+                  </li>
+              ))}
+          </ul>
+      )}
+  </section>
+</article>

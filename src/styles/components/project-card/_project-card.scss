@@ -1,0 +1,145 @@
+@use "@styles/settings/variables" as  *;
+
+.project {
+  box-sizing: border-box;
+  max-width: 600px;
+  margin: 20px auto;
+
+  &__image-container {
+    position: relative;
+
+    overflow: hidden;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+
+    line-height: 0;
+
+    background-color: $orange-yellow-crayola;
+    border-radius: 15px 0 0;
+
+    @media screen and (min-width: 1200px) {
+      width: 55%;
+      height: fit-content;
+      margin: auto;
+
+      line-height: 0;
+
+      border-radius: 0;
+    }
+  }
+
+  &__image {
+    width: 100%;
+  }
+
+  &__type {
+    position: absolute;
+    top: 0;
+
+    margin: 0;
+    padding: 10px;
+
+    color: $chinese-black;
+
+    background-color: $orange-yellow-crayola;
+
+    .type__icon {
+      margin-right: 5px;
+      background-color: $chinese-black;
+    }
+  }
+
+  &__information {
+    overflow: hidden;
+
+    padding: 10px;
+
+    color: $bright-gray;
+
+    background-color: $chinese-black;
+    border-radius: 0 0 15px;
+
+    ul {
+      margin: 0;
+      list-style: none;
+    }
+
+    @media screen and (min-width: 1200px) {
+      box-sizing: border-box;
+      width: 45%;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+  }
+
+  &__title {
+    margin: 0;
+    font-family: "Kufam", sans-serif;
+    text-transform: uppercase;
+  }
+
+  &__links {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-start;
+    padding: 10px;
+  }
+
+  &__description {
+    position: relative;
+    padding: 10px;
+
+    .description__icon {
+      position: absolute;
+      top: 13px;
+    }
+
+    p {
+      margin: 0;
+      padding: 0 0 0 25px;
+    }
+  }
+
+  &__technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-evenly;
+
+    padding: 10px;
+  }
+
+  .technology__item {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+
+    background-color: $russian-violet;
+    border-radius: 5px;
+
+    i {
+      margin-bottom: 5px;
+      font-size: 16px;
+    }
+
+    .technology__text {
+      padding: 5px;
+      font-size: 10px;
+      line-height: 1;
+    }
+  }
+
+  @media screen and (min-width: 1200px) {
+    position: relative;
+
+    display: flex;
+
+    box-sizing: border-box;
+    width: 95%;
+    padding: 10px 20px;
+  }
+}

@@ -1,12 +1,19 @@
 ---
 import Hero from '@components/Hero/Hero.astro';
 import Layout from '@layouts/Layout.astro';
-import interestsData from '@components/Cards/data/interests.json';
-import { getDataByLang } from '@scripts/utils';
-import InterestCard from '@components/Cards/InterestCard.astro';
-import type { Interest } from '@scripts/types/types';
+import interestsData from '@components/InterestCard/data/interests.json';
+import experienceData from '@components/ExperienceCard/data/experiences.json';
+import { getDataByLang, sortProjectsByOrder } from '@scripts/utils';
+import InterestCard from '@components/InterestCard/InterestCard.astro';
+import type { Experience, Interest, Project } from '@scripts/types/types';
+import ExperienceCard from '@components/ExperienceCard/ExperienceCard.astro';
+import projectsData from '@components/ProjectCard/data/projects.json';
+import ProjectCard from '@components/ProjectCard/ProjectCard.astro';
 
 const interests = getDataByLang(interestsData, 'en');
+const experiences = getDataByLang(experienceData, 'en');
+let projects = getDataByLang(projectsData, 'en');
+projects = sortProjectsByOrder(projects);
 ---
 
 <Layout seoID='home' addHeader addFooter>
@@ -26,7 +33,7 @@ const interests = getDataByLang(interestsData, 'en');
 			</ul>
 			<p>If you're looking for a professional with <b>my experience</b>:
 				<a class="button button--cv" href="/pdf/cv-jhossymar_contreras.pdf" target="_blank" aria-label="Download Jhossymar's resume">
-					<i class="fa-regular fa-file-pdf button__icon"></i> Download Resume
+					<i class="icon icon--pdf button__icon"></i> Download Resume
 				</a>
 			</p>
 			<h4 class="interests__title">My Interests</h4>
@@ -38,13 +45,25 @@ const interests = getDataByLang(interestsData, 'en');
 		</section>
 		<section class="page-section" id="projects">
 			<h3 class="page-section__title">Portfolio</h3>
-			<section class="projects"></section>
+			<swiper-container id="projects-slider">
+				{projects.map((project:Project) => (
+					<swiper-slide>
+						<ProjectCard {...project} />
+					</swiper-slide>
+				))}
+      </swiper-container>
 		</section>
 		<section class="page-section" id="experience">
 			<h3 class="page-section__title">Experience</h3>
+			<div class="experiences">
+				{experiences.map((experience: Experience) => (
+					<ExperienceCard {...experience} />
+				))}
+			</div>
 		</section>
 		<section class="page-section" id="skills">
 			<h3 class="page-section__title">Skills</h3>
 		</section>
 	</main>
+	<script slot="page-scripts" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </Layout>

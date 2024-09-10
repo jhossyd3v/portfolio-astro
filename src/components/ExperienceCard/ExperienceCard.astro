@@ -1,10 +1,9 @@
 ---
-  import Switch from '@components/Switch/Switch.astro'
 import type { Experience } from '@scripts/types/types'
 
   type Props = Experience
 
-  const { companyId, company, position, description, range, informationItems, technologies, isCurrent = false } = Astro.props
+  const {company, position, description, range, informationItems, isCurrent = false } = Astro.props
 ---
 
 <article class:list={["experience-card" , {"experience-card--current": isCurrent}]}>
@@ -28,14 +27,4 @@ import type { Experience } from '@scripts/types/types'
       </li>
     ))}
   </ul>
-  <Switch id={companyId}>
-    <ul class="technologies" slot="switch-content">
-      {technologies.map((technology) => (
-        <li class="technology">
-          <i class:list={[technology.iconClassNames]}></i>
-          <span class="technology__name">{technology.name}</span>
-        </li>
-      ))}
-    </ul>
-  </Switch>
 </article>

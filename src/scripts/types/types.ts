@@ -21,17 +21,34 @@ export type Interest = {
 }
 
 export type Experience = {
-  companyId: string;
   company: string;
   position: string;
   description: string;
   range: string;
   informationItems: string[];
-  technologies: Technology[];
   isCurrent?: boolean;
 }
 
 export type Technology = {
-  name: string;
+  text: string;
+  iconClassNames: string[];
+}
+
+export type Project = {
+  order: number;
+  id: string;
+  title: string;
+  type: string;
+  typeText: string;
+  links: ProjectLink[];
+  descriptions: string[];
+  tags: string[];
+  technologies: Technology[];
+}
+
+export type ProjectLink = {
+  link: string;
+  text: string;
+  type: string;
   iconClassNames: string[];
 }
