@@ -30,7 +30,20 @@ $tech-icons: 'typescript',
               'astro',
               'css',
               'javascript',
-              'html';
+              'html',
+              'bootstrap',
+              'sass',
+              'font-awesome',
+              'java',
+              'mysql',
+              'php',
+              'postgresql',
+              'python',
+              'sqlite',
+              'wordpress',
+              'swiper',
+              'bash',
+              'c-sharp';
 
 .icon {
   display: inline-block;
@@ -70,4 +83,14 @@ $tech-icons: 'typescript',
   .tech-icon--#{$icon} {
     background-image: url('/assets/icons/#{$icon}.svg');
   }
+}
+
+.tech-icon--sass {
+  width: 22px;
+  height: 16px;
+}
+
+.tech-icon--php {
+  width: 22px;
+  height: 11px;
 }

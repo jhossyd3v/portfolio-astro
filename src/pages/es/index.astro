@@ -5,9 +5,10 @@ import interestData from '@components/InterestCard/data/interests.json';
 import experienceData from '@components/ExperienceCard/data/experiences.json';
 import { getDataByLang } from '@scripts/utils';
 import InterestCard from '@components/InterestCard/InterestCard.astro';
-import type { Interest, Experience } from '@scripts/types/types';
+import type { Interest, Experience, Project } from '@scripts/types/types';
 import ExperienceCard from '@components/ExperienceCard/ExperienceCard.astro';
 import projectsData from '@components/ProjectCard/data/projects.json';
+import ProjectCard from '@components/ProjectCard/ProjectCard.astro';
 
 const interests = getDataByLang(interestData, 'es');
 const experiences = getDataByLang(experienceData, 'es');
@@ -43,6 +44,13 @@ const projects = getDataByLang(projectsData, 'es');
     </section>
     <section class="page-section" id="projects">
       <h3 class="page-section__title">Portafolio</h3>
+      <swiper-container id="projects-slider" init="false">
+				{projects.map((project:Project) => (
+					<swiper-slide>
+						<ProjectCard {...project} />
+					</swiper-slide>
+				))}
+      </swiper-container>
     </section>
     <section class="page-section" id="experience">
       <h3 class="page-section__title">Experiencia</h3>
@@ -56,5 +64,5 @@ const projects = getDataByLang(projectsData, 'es');
       <h3 class="page-section__title">Habilidades</h3>
     </section>
   </main>
-  <script slot="project-scripts" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script slot="page-scripts" src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
 </Layout>

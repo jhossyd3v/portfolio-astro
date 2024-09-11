@@ -93,9 +93,12 @@ strong {
 
 .button,
 a.button {
-  display: inline-block;
+  display: flex;
+  gap: 5px;
+  align-items: center;
 
   box-sizing: border-box;
+  width: fit-content;
   padding: 10px;
 
   font-weight: bold;
@@ -111,9 +114,5 @@ a.button {
 
   &:focus {
     background-color: $royal-health-40;
-  }
-
-  &__icon {
-    margin-right: 5px;
   }
 }

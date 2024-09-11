@@ -19,14 +19,11 @@
     background-color: $orange-yellow-crayola;
     border-radius: 15px 0 0;
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1100px) {
       width: 55%;
       height: fit-content;
       margin: auto;
-
       line-height: 0;
-
-      border-radius: 0;
     }
   }
 
@@ -44,6 +41,7 @@
     color: $chinese-black;
 
     background-color: $orange-yellow-crayola;
+    border: 1px solid $chinese-black;
 
     .type__icon {
       margin-right: 5px;
@@ -66,7 +64,7 @@
       list-style: none;
     }
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1100px) {
       box-sizing: border-box;
       width: 45%;
       padding-top: 30px;
@@ -118,12 +116,12 @@
     gap: 5px;
     align-items: center;
 
+    padding: 10px;
+
     background-color: $russian-violet;
     border-radius: 5px;
 
     i {
-      margin-bottom: 5px;
-      font-size: 16px;
     }
 
     .technology__text {
@@ -133,13 +131,14 @@
     }
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1100px) {
     position: relative;
 
     display: flex;
 
     box-sizing: border-box;
-    width: 95%;
+    width: 100%;
+    max-width: unset;
     padding: 10px 20px;
   }
 }

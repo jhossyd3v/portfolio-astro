@@ -45,7 +45,7 @@ projects = sortProjectsByOrder(projects);
 		</section>
 		<section class="page-section" id="projects">
 			<h3 class="page-section__title">Portfolio</h3>
-			<swiper-container id="projects-slider">
+			<swiper-container id="projects-slider" init="false">
 				{projects.map((project:Project) => (
 					<swiper-slide>
 						<ProjectCard {...project} />

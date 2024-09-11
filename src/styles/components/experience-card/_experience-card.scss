@@ -2,7 +2,7 @@
 
 .experience-card {
   box-sizing: border-box;
-  max-width: 310px;
+  max-width: 600px;
   height: fit-content;
   margin: 10px 0;
   padding: 10px;
@@ -13,6 +13,10 @@
   border-radius: 15px 0;
 
   .experience {
+    &__company {
+      grid-area: company;
+    }
+
     &__title {
       margin-bottom: 5px;
     }
@@ -22,6 +26,7 @@
     }
 
     &__information {
+      grid-area: items;
       box-sizing: border-box;
       margin: 0;
       margin-top: 10px;
@@ -29,6 +34,16 @@
 
     &__date-range {
       font-size: 14px;
+    }
+  }
+
+  hr {
+    grid-area: separator;
+    background-color: $russian-violet;
+
+    @media screen and (min-width: 1100px) {
+      width: 1px;
+      height: 100%;
     }
   }
 
@@ -67,4 +82,15 @@
     }
   }
 
+  @media screen and (min-width: 1024px) {
+    width: 100%;
+    max-width: 1080px;
+  }
+
+  @media screen and (min-width: 1100px) {
+    display: grid;
+    grid-template-areas: 'company separator items';
+    grid-template-columns: minmax(0, 50%) 1px minmax(0, 50%);
+    gap: 10px;
+  }
 }
