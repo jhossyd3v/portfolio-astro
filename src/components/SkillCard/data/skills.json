@@ -1,0 +1,400 @@
+{
+  "en": [
+      {
+        "name": "Coding Languages",
+        "technologies": [
+          {
+            "text": "Javascript",
+            "iconClassNames": ["tech-icon", "tech-icon--javascript"]
+          },
+          {
+            "text": "HTML5",
+            "iconClassNames": ["tech-icon", "tech-icon--html"]
+          },
+          {
+            "text": "CSS3",
+            "iconClassNames": ["tech-icon", "tech-icon--css"]
+          },
+          {
+            "text": "Python",
+            "iconClassNames": ["tech-icon", "tech-icon--python"]
+          },
+          {
+            "text": "PHP",
+            "iconClassNames": ["tech-icon", "tech-icon--php"]
+          },
+          {
+            "text": "Java",
+            "iconClassNames": ["tech-icon", "tech-icon--java"]
+          },
+          {
+            "text": "C#",
+            "iconClassNames": ["tech-icon", "tech-icon--c-sharp"]
+          },
+          {
+            "text": "Bash",
+            "iconClassNames": ["tech-icon", "tech-icon--bash"]
+          },
+          {
+            "text": "Visual Basic",
+            "iconClassNames": []
+          }
+        ]
+      },
+      {
+        "name": "Databases",
+        "technologies": [
+          {
+            "text": "MySQL",
+            "iconClassNames": ["tech-icon", "tech-icon--mysql"]
+          },
+          {
+            "text": "PostgreSQL",
+            "iconClassNames": ["tech-icon", "tech-icon--postgresql"]
+          },
+          {
+            "text": "SQLite",
+            "iconClassNames": ["tech-icon", "tech-icon--sqlite"]
+          },
+          {
+            "text": "SQL Server",
+            "iconClassNames": ["tech-icon", "tech-icon--sql-server"]
+          }
+        ]
+      },
+      {
+        "name": "Version Control",
+        "technologies": [
+          {
+            "text": "Git",
+            "iconClassNames": ["tech-icon", "tech-icon--git"]
+          },
+          {
+            "text": "SVN",
+            "iconClassNames": []
+          }
+        ]
+      },
+      {
+        "name": "Frameworks/Libraries/Other",
+        "technologies": [
+          {
+            "text": "Astro",
+            "iconClassNames": ["tech-icon", "tech-icon--astro"]
+          },
+          {
+            "text": "Sass",
+            "iconClassNames": ["tech-icon", "tech-icon--sass"]
+          },
+          {
+            "text": "jQuery",
+            "iconClassNames": ["tech-icon", "tech-icon--jquery"]
+          },
+          {
+            "text": "Bootstrap",
+            "iconClassNames": ["tech-icon", "tech-icon--bootstrap"]
+          },
+          {
+            "text": "WordPress",
+            "iconClassNames": ["tech-icon", "tech-icon--wordpress"]
+          },
+          {
+            "text": "Pandas",
+            "iconClassNames": ["tech-icon", "tech-icon--pandas"]
+          },
+          {
+            "text": "Jupyter",
+            "iconClassNames": ["tech-icon", "tech-icon--jupyter"]
+          },
+          {
+            "text": "Node JS",
+            "iconClassNames": ["tech-icon", "tech-icon--nodejs"]
+          },
+          {
+            "text": "React",
+            "iconClassNames": ["tech-icon", "tech-icon--react"]
+          },
+          {
+            "text": "Angular JS",
+            "iconClassNames": ["tech-icon", "tech-icon--angular"]
+          },
+          {
+            "text": "Grunt",
+            "iconClassNames": ["tech-icon", "tech-icon--grunt"]
+          },
+          {
+            "text": "Bower",
+            "iconClassNames": ["tech-icon", "tech-icon--bower"]
+          },
+          {
+            "text": "Gulp",
+            "iconClassNames": ["tech-icon", "tech-icon--gulp"]
+          },
+          {
+            "text": "Pug",
+            "iconClassNames": ["tech-icon", "tech-icon--pug"]
+          },
+          {
+            "text": "Stylus",
+            "iconClassNames": ["tech-icon", "tech-icon--stylus"]
+          },
+          {
+            "text": "Primefaces",
+            "iconClassNames": ["tech-icon", "tech-icon--primefaces"]
+          },
+          {
+            "text": "Java EE",
+            "iconClassNames": ["tech-icon", "tech-icon--javaee"]
+          },
+          {
+            "text": "Docker",
+            "iconClassNames": ["tech-icon", "tech-icon--docker"]
+          }
+        ]
+      },
+      {
+        "name": "Software",
+        "technologies": [
+          {
+            "text": "VS Code",
+            "iconClassNames": ["tech-icon", "tech-icon--vscode"]
+          },
+          {
+            "text": "Prepros",
+            "iconClassNames": ["tech-icon", "tech-icon--prepros"]
+          },
+          {
+            "text": "Google Sheets",
+            "iconClassNames": ["tech-icon", "tech-icon--googlesheets"]
+          },
+          {
+            "text": "Putty",
+            "iconClassNames": ["tech-icon", "tech-icon--putty"]
+          },
+          {
+            "text": "Debian",
+            "iconClassNames": ["tech-icon", "tech-icon--debian"]
+          },
+          {
+            "text": "Figma",
+            "iconClassNames": ["tech-icon", "tech-icon--figma"]
+          },
+          {
+            "text": "Gimp",
+            "iconClassNames": ["tech-icon", "tech-icon--gimp"]
+          },
+          {
+            "text": "Filezilla",
+            "iconClassNames": ["tech-icon", "tech-icon--filezilla"]
+          },
+          {
+            "text": "XAMPP",
+            "iconClassNames": ["tech-icon", "tech-icon--xampp"]
+          },
+          {
+            "text": "Glassfish",
+            "iconClassNames": ["tech-icon", "tech-icon--glassfish"]
+          }
+        ]
+      }
+    ],
+  "es": [
+    {
+      "name": "Lenguajes",
+      "technologies": [
+        {
+          "text": "Javascript",
+          "iconClassNames": ["tech-icon", "tech-icon--javascript"]
+        },
+        {
+          "text": "HTML5",
+          "iconClassNames": ["tech-icon", "tech-icon--html"]
+        },
+        {
+          "text": "CSS3",
+          "iconClassNames": ["tech-icon", "tech-icon--css"]
+        },
+        {
+          "text": "Python",
+          "iconClassNames": ["tech-icon", "tech-icon--python"]
+        },
+        {
+          "text": "PHP",
+          "iconClassNames": ["tech-icon", "tech-icon--php"]
+        },
+        {
+          "text": "Java",
+          "iconClassNames": ["tech-icon", "tech-icon--java"]
+        },
+        {
+          "text": "C#",
+          "iconClassNames": ["tech-icon", "tech-icon--c-sharp"]
+        },
+        {
+          "text": "Bash",
+          "iconClassNames": ["tech-icon", "tech-icon--bash"]
+        },
+        {
+          "text": "Visual Basic",
+          "iconClassNames": []
+        }
+      ]
+    },
+    {
+      "name": "Bases de Datos",
+      "technologies": [
+        {
+          "text": "MySQL",
+          "iconClassNames": ["tech-icon", "tech-icon--mysql"]
+        },
+        {
+          "text": "PostgreSQL",
+          "iconClassNames": ["tech-icon", "tech-icon--postgresql"]
+        },
+        {
+          "text": "SQLite",
+          "iconClassNames": ["tech-icon", "tech-icon--sqlite"]
+        },
+        {
+          "text": "SQL Server",
+          "iconClassNames": ["tech-icon", "tech-icon--sql-server"]
+        }
+      ]
+    },
+    {
+      "name": "Control de Versiones",
+      "technologies": [
+        {
+          "text": "Git",
+          "iconClassNames": ["tech-icon", "tech-icon--git"]
+        },
+        {
+          "text": "SVN",
+          "iconClassNames": []
+        }
+      ]
+    },
+    {
+      "name": "Frameworks/Librerías/Otros",
+      "technologies": [
+        {
+          "text": "Astro",
+          "iconClassNames": ["tech-icon", "tech-icon--astro"]
+        },
+        {
+          "text": "Sass",
+          "iconClassNames": ["tech-icon", "tech-icon--sass"]
+        },
+        {
+          "text": "jQuery",
+          "iconClassNames": ["tech-icon", "tech-icon--jquery"]
+        },
+        {
+          "text": "Bootstrap",
+          "iconClassNames": ["tech-icon", "tech-icon--bootstrap"]
+        },
+        {
+          "text": "WordPress",
+          "iconClassNames": ["tech-icon", "tech-icon--wordpress"]
+        },
+        {
+          "text": "Pandas",
+          "iconClassNames": ["tech-icon", "tech-icon--pandas"]
+        },
+        {
+          "text": "Jupyter",
+          "iconClassNames": ["tech-icon", "tech-icon--jupyter"]
+        },
+        {
+          "text": "Node JS",
+          "iconClassNames": ["tech-icon", "tech-icon--nodejs"]
+        },
+        {
+          "text": "React",
+          "iconClassNames": ["tech-icon", "tech-icon--react"]
+        },
+        {
+          "text": "Angular JS",
+          "iconClassNames": ["tech-icon", "tech-icon--angular"]
+        },
+        {
+          "text": "Grunt",
+          "iconClassNames": ["tech-icon", "tech-icon--grunt"]
+        },
+        {
+          "text": "Bower",
+          "iconClassNames": ["tech-icon", "tech-icon--bower"]
+        },
+        {
+          "text": "Gulp",
+          "iconClassNames": ["tech-icon", "tech-icon--gulp"]
+        },
+        {
+          "text": "Pug",
+          "iconClassNames": ["tech-icon", "tech-icon--pug"]
+        },
+        {
+          "text": "Stylus",
+          "iconClassNames": ["tech-icon", "tech-icon--stylus"]
+        },
+        {
+          "text": "Primefaces",
+          "iconClassNames": ["tech-icon", "tech-icon--primefaces"]
+        },
+        {
+          "text": "Java EE",
+          "iconClassNames": ["tech-icon", "tech-icon--javaee"]
+        },
+        {
+          "text": "Docker",
+          "iconClassNames": ["tech-icon", "tech-icon--docker"]
+        }
+      ]
+    },
+    {
+      "name": "Software",
+      "technologies": [
+        {
+          "text": "VS Code",
+          "iconClassNames": ["tech-icon", "tech-icon--vscode"]
+        },
+        {
+          "text": "Prepros",
+          "iconClassNames": ["tech-icon", "tech-icon--prepros"]
+        },
+        {
+          "text": "Google Sheets",
+          "iconClassNames": ["tech-icon", "tech-icon--googlesheets"]
+        },
+        {
+          "text": "Putty",
+          "iconClassNames": ["tech-icon", "tech-icon--putty"]
+        },
+        {
+          "text": "Debian",
+          "iconClassNames": ["tech-icon", "tech-icon--debian"]
+        },
+        {
+          "text": "Figma",
+          "iconClassNames": ["tech-icon", "tech-icon--figma"]
+        },
+        {
+          "text": "Gimp",
+          "iconClassNames": ["tech-icon", "tech-icon--gimp"]
+        },
+        {
+          "text": "Filezilla",
+          "iconClassNames": ["tech-icon", "tech-icon--filezilla"]
+        },
+        {
+          "text": "XAMPP",
+          "iconClassNames": ["tech-icon", "tech-icon--xampp"]
+        },
+        {
+          "text": "Glassfish",
+          "iconClassNames": ["tech-icon", "tech-icon--glassfish"]
+        }
+      ]
+    }
+  ]
+}
