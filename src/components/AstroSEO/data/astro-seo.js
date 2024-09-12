@@ -41,16 +41,16 @@ const pagesData = {
       description: 'Web to show information about Jhossymar Contreras, projects, experience, skills, social networks',
       openGraph: {
         basic: {
-          title: '',
+          title: 'Portfolio',
           type: '',
-          image: ''
+          image: 'https://www.jhossy.dev/assets/images/seo/portfolio.jpg'
         }
       },
       twitter: {
-        title: '',
-        image: '',
+        title: 'Portfolio',
+        image: 'https://www.jhossy.dev/assets/images/seo/portfolio.jpg',
         imageAlt: '',
-        description: ''
+        description: 'Web to show information about Jhossymar Contreras, projects, experience, skills, social networks'
       }
     },
     es: {
@@ -58,16 +58,16 @@ const pagesData = {
       description: 'Web para mostrar información sobre Jhossymar Contreras, proyectos, experiencia, habilidades, redes sociales',
       openGraph: {
         basic: {
-          title: '',
+          title: 'Portafolio',
           type: '',
-          image: ''
+          image: 'https://www.jhossy.dev/assets/images/seo/portfolio.jpg'
         }
       },
       twitter: {
-        title: '',
-        image: '',
+        title: 'Portafolio',
+        image: 'https://www.jhossy.dev/assets/images/seo/portfolio.jpg',
         imageAlt: '',
-        description: ''
+        description: 'Web para mostrar información sobre Jhossymar Contreras, proyectos, experiencia, habilidades, redes sociales'
       }
     }
   },
@@ -77,16 +77,16 @@ const pagesData = {
       description: 'Page not found',
       openGraph: {
         basic: {
-          title: '',
+          title: 'Not Found',
           type: '',
-          image: ''
+          image: 'https://www.jhossy.dev/assets/images/not-found/undraw_monitor_iqpq.svg'
         }
       },
       twitter: {
-        title: '',
-        image: '',
+        title: 'Not Found',
+        image: 'https://www.jhossy.dev/assets/images/not-found/undraw_monitor_iqpq.svg',
         imageAlt: '',
-        description: ''
+        description: 'Page not found'
       }
     },
     es: {
@@ -161,7 +161,7 @@ const createSEOData = (pageID = 'default', lang = 'en') => {
 
   seoObject = addLink(seoObject, 'icon', 'image/x-icon', '/favicon.ico')
   // seoObject = addLink(seoObject, 'icon', 'image/svg+xml', '/favicon.svg')
-  seoObject = addMeta(seoObject, 'viewport', 'width=device-width,user-scalable=no, initial-scale=1.0, minimum-scale=1.0')
+  seoObject = addMeta(seoObject, 'viewport', 'width=device-width, initial-scale=1.0, minimum-scale=1.0')
   seoObject = setPageData(seoObject, pageID, lang)
 
   return seoObject
