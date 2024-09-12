@@ -1,7 +1,42 @@
 @import "@styles/settings/variables";
 
-img {
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto;
+main {
+    min-height: 100vh;
+    padding-block: 30px;
 }
+
+.wrapper {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+    h1 {
+        font-size: 40px;
+    }
+
+    p {
+        margin-block: 20px;
+        font-size: 18px;
+
+        @media screen and (min-width: 1024px) {
+            font-size: 26px;
+
+        }
+    }
+
+    img {
+        width: 100%;
+        max-width: 500px;
+        margin: 50px auto 0;
+
+        @media screen and (min-width: 1024px) {
+            margin-top: 0;
+        }
+    }
+
+    @media screen and (min-width: 1024px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
