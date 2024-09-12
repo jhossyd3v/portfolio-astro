@@ -64,15 +64,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Font Awesome"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -140,21 +136,15 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Poke API"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -213,21 +203,15 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "flag-icons"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -286,9 +270,7 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -347,15 +329,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "amCharts"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -414,9 +392,7 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -475,15 +451,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Leaflet"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -531,15 +503,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -587,15 +555,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -643,15 +607,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -699,15 +659,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -755,15 +711,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -811,15 +763,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -892,9 +840,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -967,9 +913,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1042,9 +986,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1115,15 +1057,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Font Awesome"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1191,21 +1129,15 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Poke API"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1264,21 +1196,15 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "flag-icons"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1337,9 +1263,7 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1398,15 +1322,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "amCharts"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1465,9 +1385,7 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1526,15 +1444,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Leaflet"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1582,15 +1496,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1638,15 +1548,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Local Storage"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1694,15 +1600,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1750,15 +1652,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1806,15 +1704,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1862,15 +1756,11 @@
                     "text": "CSS3"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Google Sheets"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -1943,9 +1833,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -2018,9 +1906,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]
@@ -2093,9 +1979,7 @@
                     "text": "PHP"
                 },
                 {
-                    "iconClassNames": [
-                        ""
-                    ],
+                    "iconClassNames": [],
                     "text": "Normalize"
                 }
             ]

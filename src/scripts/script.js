@@ -14,7 +14,9 @@ const initProjectSlider = () => {
   const params = {
     navigation: true,
     loop: true,
-    autoplay: true,
+    autoplay: {
+      delay: 7000
+    },
     injectStyles: [
       `
         .swiper {

@@ -9,10 +9,13 @@ import type { Interest, Experience, Project } from '@scripts/types/types';
 import ExperienceCard from '@components/ExperienceCard/ExperienceCard.astro';
 import projectsData from '@components/ProjectCard/data/projects.json';
 import ProjectCard from '@components/ProjectCard/ProjectCard.astro';
+import skillsData from '@components/SkillCard/data/skills.json';
+import SkillCard from '@components/SkillCard/SkillCard.astro';
 
 const interests = getDataByLang(interestData, 'es');
 const experiences = getDataByLang(experienceData, 'es');
 const projects = getDataByLang(projectsData, 'es');
+const skills = getDataByLang(skillsData, 'es');
 ---
 
 <Layout seoID='home' lang='es' addHeader addFooter addHeadAnalytics addBodyAnalytics>
@@ -62,6 +65,11 @@ const projects = getDataByLang(projectsData, 'es');
     </section>
     <section class="page-section" id="skills">
       <h3 class="page-section__title">Habilidades</h3>
+      <div class="skills">
+				{skills.map((skill:any) => (
+					<SkillCard title={skill.name} technologies={skill.technologies} />
+				))}
+			</div>
     </section>
   </main>
   <script slot="page-scripts" is:inline src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>

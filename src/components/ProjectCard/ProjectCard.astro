@@ -44,7 +44,7 @@ const { id, title, type, typeText, links, descriptions, tags, technologies } = A
           <ul class="project__technologies">
               {technologies.map((tech) => (
                   <li class="technology__item">
-                      <i class:list={tech.iconClassNames}></i>
+                      { tech.iconClassNames.length > 0 && <i class:list={tech.iconClassNames}></i>}
                       <span class="technology__text">{tech.text}</span>
                   </li>
               ))}
