@@ -2,6 +2,7 @@ const pagesData = {
   default: {
     en: {
       title: 'Page',
+      metas: [],
       description: '',
       openGraph: {
         basic: {
@@ -19,6 +20,7 @@ const pagesData = {
     },
     es: {
       title: 'Página',
+      metas: [],
       description: '',
       openGraph: {
         basic: {
@@ -38,6 +40,9 @@ const pagesData = {
   home: {
     en: {
       title: 'Portfolio',
+      metas: [
+        { name: 'keywords', content: 'Jhossymar Contreras, Frontend Developer, Developer, Portfolio' }
+      ],
       description: 'Web to show information about Jhossymar Contreras, projects, experience, skills, social networks',
       openGraph: {
         basic: {
@@ -55,6 +60,9 @@ const pagesData = {
     },
     es: {
       title: 'Portafolio',
+      metas: [
+        { name: 'keywords', content: 'Jhossymar Contreras, Desarrollador Frontend, Desarrollador, Portafolio' }
+      ],
       description: 'Web para mostrar información sobre Jhossymar Contreras, proyectos, experiencia, habilidades, redes sociales',
       openGraph: {
         basic: {
@@ -74,6 +82,7 @@ const pagesData = {
   'not-found': {
     en: {
       title: 'Not Found',
+      metas: [],
       description: 'Page not found',
       openGraph: {
         basic: {
@@ -91,6 +100,7 @@ const pagesData = {
     },
     es: {
       title: 'No Encontrado',
+      metas: [],
       description: 'Página no encontrada',
       openGraph: {
         basic: {
@@ -152,6 +162,12 @@ const setPageData = (seoObject, pageID, lang) => {
   seoObject.description = pagesData[pageID][lang].description || seoObject.description
   seoObject.openGraph = pagesData[pageID][lang].openGraph || seoObject.openGraph
   seoObject.twitter = pagesData[pageID][lang].twitter || seoObject.twitter
+
+  if (pagesData[pageID][lang].metas) {
+    pagesData[pageID][lang].metas.forEach(meta => {
+      seoObject = addMeta(seoObject, meta.name, meta.content)
+    })
+  }
 
   return seoObject
 }
