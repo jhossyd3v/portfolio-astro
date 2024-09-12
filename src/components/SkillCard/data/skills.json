@@ -100,11 +100,11 @@
           },
           {
             "text": "Pandas",
-            "iconClassNames": ["tech-icon", "tech-icon--pandas"]
+            "iconClassNames": []
           },
           {
             "text": "Jupyter",
-            "iconClassNames": ["tech-icon", "tech-icon--jupyter"]
+            "iconClassNames": []
           },
           {
             "text": "Node JS",
@@ -115,36 +115,20 @@
             "iconClassNames": ["tech-icon", "tech-icon--react"]
           },
           {
-            "text": "Angular JS",
-            "iconClassNames": ["tech-icon", "tech-icon--angular"]
-          },
-          {
-            "text": "Grunt",
-            "iconClassNames": ["tech-icon", "tech-icon--grunt"]
-          },
-          {
-            "text": "Bower",
-            "iconClassNames": ["tech-icon", "tech-icon--bower"]
-          },
-          {
-            "text": "Gulp",
-            "iconClassNames": ["tech-icon", "tech-icon--gulp"]
-          },
-          {
             "text": "Pug",
-            "iconClassNames": ["tech-icon", "tech-icon--pug"]
+            "iconClassNames": []
           },
           {
             "text": "Stylus",
-            "iconClassNames": ["tech-icon", "tech-icon--stylus"]
+            "iconClassNames": []
           },
           {
             "text": "Primefaces",
-            "iconClassNames": ["tech-icon", "tech-icon--primefaces"]
+            "iconClassNames": []
           },
           {
             "text": "Java EE",
-            "iconClassNames": ["tech-icon", "tech-icon--javaee"]
+            "iconClassNames": []
           },
           {
             "text": "Docker",
@@ -161,19 +145,19 @@
           },
           {
             "text": "Prepros",
-            "iconClassNames": ["tech-icon", "tech-icon--prepros"]
+            "iconClassNames": []
           },
           {
             "text": "Google Sheets",
-            "iconClassNames": ["tech-icon", "tech-icon--googlesheets"]
+            "iconClassNames": []
           },
           {
             "text": "Putty",
-            "iconClassNames": ["tech-icon", "tech-icon--putty"]
+            "iconClassNames": []
           },
           {
             "text": "Debian",
-            "iconClassNames": ["tech-icon", "tech-icon--debian"]
+            "iconClassNames": []
           },
           {
             "text": "Figma",
@@ -185,15 +169,31 @@
           },
           {
             "text": "Filezilla",
-            "iconClassNames": ["tech-icon", "tech-icon--filezilla"]
+            "iconClassNames": []
           },
           {
             "text": "XAMPP",
-            "iconClassNames": ["tech-icon", "tech-icon--xampp"]
+            "iconClassNames": []
           },
           {
             "text": "Glassfish",
-            "iconClassNames": ["tech-icon", "tech-icon--glassfish"]
+            "iconClassNames": []
+          },
+          {
+            "text": "Adobe Photoshop",
+            "iconClassNames": ["tech-icon", "tech-icon--photoshop"]
+          },
+          {
+            "text": "Adobe Illustrator",
+            "iconClassNames": ["tech-icon", "tech-icon--illustrator"]
+          },
+          {
+            "text": "Adobe XD",
+            "iconClassNames": ["tech-icon", "tech-icon--xd"]
+          },
+          {
+            "text": "Microsoft Office",
+            "iconClassNames": []
           }
         ]
       }
@@ -299,11 +299,11 @@
         },
         {
           "text": "Pandas",
-          "iconClassNames": ["tech-icon", "tech-icon--pandas"]
+          "iconClassNames": []
         },
         {
           "text": "Jupyter",
-          "iconClassNames": ["tech-icon", "tech-icon--jupyter"]
+          "iconClassNames": [""]
         },
         {
           "text": "Node JS",
@@ -314,36 +314,20 @@
           "iconClassNames": ["tech-icon", "tech-icon--react"]
         },
         {
-          "text": "Angular JS",
-          "iconClassNames": ["tech-icon", "tech-icon--angular"]
-        },
-        {
-          "text": "Grunt",
-          "iconClassNames": ["tech-icon", "tech-icon--grunt"]
-        },
-        {
-          "text": "Bower",
-          "iconClassNames": ["tech-icon", "tech-icon--bower"]
-        },
-        {
-          "text": "Gulp",
-          "iconClassNames": ["tech-icon", "tech-icon--gulp"]
-        },
-        {
           "text": "Pug",
-          "iconClassNames": ["tech-icon", "tech-icon--pug"]
+          "iconClassNames": []
         },
         {
           "text": "Stylus",
-          "iconClassNames": ["tech-icon", "tech-icon--stylus"]
+          "iconClassNames": []
         },
         {
           "text": "Primefaces",
-          "iconClassNames": ["tech-icon", "tech-icon--primefaces"]
+          "iconClassNames": []
         },
         {
           "text": "Java EE",
-          "iconClassNames": ["tech-icon", "tech-icon--javaee"]
+          "iconClassNames": []
         },
         {
           "text": "Docker",
@@ -360,19 +344,19 @@
         },
         {
           "text": "Prepros",
-          "iconClassNames": ["tech-icon", "tech-icon--prepros"]
+          "iconClassNames": []
         },
         {
           "text": "Google Sheets",
-          "iconClassNames": ["tech-icon", "tech-icon--googlesheets"]
+          "iconClassNames": []
         },
         {
           "text": "Putty",
-          "iconClassNames": ["tech-icon", "tech-icon--putty"]
+          "iconClassNames": []
         },
         {
           "text": "Debian",
-          "iconClassNames": ["tech-icon", "tech-icon--debian"]
+          "iconClassNames": []
         },
         {
           "text": "Figma",
@@ -384,15 +368,31 @@
         },
         {
           "text": "Filezilla",
-          "iconClassNames": ["tech-icon", "tech-icon--filezilla"]
+          "iconClassNames": []
         },
         {
           "text": "XAMPP",
-          "iconClassNames": ["tech-icon", "tech-icon--xampp"]
+          "iconClassNames": []
         },
         {
           "text": "Glassfish",
-          "iconClassNames": ["tech-icon", "tech-icon--glassfish"]
+          "iconClassNames": []
+        },
+        {
+          "text": "Adobe Photoshop",
+          "iconClassNames": ["tech-icon", "tech-icon--photoshop"]
+        },
+        {
+          "text": "Adobe Illustrator",
+          "iconClassNames": ["tech-icon", "tech-icon--illustrator"]
+        },
+        {
+          "text": "Adobe XD",
+          "iconClassNames": ["tech-icon", "tech-icon--xd"]
+        },
+        {
+          "text": "Microsoft Office",
+          "iconClassNames": []
         }
       ]
     }
