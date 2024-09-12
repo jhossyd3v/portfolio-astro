@@ -1,0 +1,55 @@
+@use "@styles/settings/variables" as  *;
+
+.skill-card {
+  box-sizing: border-box;
+  max-width: 100%;
+  height: fit-content;
+  margin: 15px 0;
+  padding: 15px;
+
+  color: $bright-gray;
+
+  background-color: $chinese-black;
+  border-radius: 15px 0;
+
+  .technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-left: 0;
+
+
+    .technology__item {
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      align-items: center;
+
+      padding: 10px;
+
+      background-color: $russian-violet;
+      border-radius: 5px;
+
+      i {
+      }
+
+      .technology__text {
+        padding: 5px;
+        font-size: 16px;
+        line-height: 1;
+      }
+    }
+  }
+
+  &--current {
+    color: $bright-gray;
+    background-color: $chinese-black;
+
+    .icon {
+      background-color: $bright-gray;
+    }
+  }
+}

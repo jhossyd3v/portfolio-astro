@@ -43,7 +43,19 @@ $tech-icons: 'typescript',
               'wordpress',
               'swiper',
               'bash',
-              'c-sharp';
+              'c-sharp',
+              'git',
+              'sql-server',
+              'jquery',
+              'react',
+              'nodejs',
+              'docker',
+              'vscode',
+              'figma',
+              'gimp',
+              'photoshop',
+              'illustrator',
+              'xd';
 
 .icon {
   display: inline-block;
@@ -93,4 +105,9 @@ $tech-icons: 'typescript',
 .tech-icon--php {
   width: 22px;
   height: 11px;
+}
+
+.tech-icon--jquery {
+  width: 40px;
+  height: 10px;
 }
