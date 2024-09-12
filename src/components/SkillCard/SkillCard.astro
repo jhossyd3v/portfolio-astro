@@ -1,0 +1,22 @@
+---
+import type { Technology } from '@scripts/types/types';
+
+  type Props = {
+    title: string;
+    technologies: Technology[];
+  }
+
+  const { title, technologies } = Astro.props;
+---
+
+<article class="skill-card">
+  <h4 class="skill-card__title">{title}</h4>
+  <ul class= "technologies">
+    {technologies.map((tech: Technology) => (
+      <li class="technology__item">
+        { tech.iconClassNames.length > 0 &&  <i class:list={tech.iconClassNames}></i>}
+        <span class="technology__text">{tech.text}</span>
+      </li>
+    ))}
+  </ul>
+</article>

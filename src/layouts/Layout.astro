@@ -30,7 +30,7 @@ const {lang = 'en', seoID = 'default', addHeadAnalytics = false, addBodyAnalytic
 		{addHeader && <Header lang={lang} />}
 		<slot />
 		{addFooter && <Footer lang={lang} />}
+		<slot name="page-scripts"></slot>
+		<script src="../scripts/script.js"></script>
 	</body>
-	<slot name="page-scripts"></slot>
-	<script src="../scripts/script.js"></script>
 </html>
