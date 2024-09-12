@@ -24,6 +24,7 @@
 
     &__list {
         display: flex;
+        align-items: center;
 
         width: 100%;
         margin: 0;
@@ -32,6 +33,51 @@
         list-style: none;
 
         border-top: 1px solid $ghost-white;
+
+        .change-language {
+            position: absolute;
+            right: 0;
+            bottom: calc(var(--header-height) + 10px);
+
+            &__link {
+                display: flex;
+                gap: 5px;
+                align-items: baseline;
+
+                box-sizing: border-box;
+                width: fit-content;
+                margin: 0;
+                padding: 10px;
+
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 1;
+                color: $bright-gray;
+                text-decoration: none;
+
+                background-color: $royal-health;
+                border-radius: 5px;
+
+
+                img {
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                }
+
+                @media screen and (min-width: 1024px) {
+                    margin: 0 10px;
+                    padding: 5px;
+
+                }
+            }
+
+            @media screen and (min-width: 1024px) {
+                position: relative;
+                right: unset;
+                bottom: unset;
+            }
+        }
 
         @media screen and (min-width: 1024px) {
             justify-content: flex-end;

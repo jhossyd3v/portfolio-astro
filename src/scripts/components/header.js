@@ -20,6 +20,11 @@ const setMenuHeightAsHeaderHeight = () => {
   if(footer) {
     footer.style.setProperty('--header-height', `${footerHeaderHeight}px`);
   }
+
+  const changeLanguage = document.querySelector('.change-language');
+  if(changeLanguage) {
+    changeLanguage.style.setProperty('--header-height', `${footerHeaderHeight}px`);
+  }
 }
 
 const getClosestAnchorTag = (element) => {

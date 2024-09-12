@@ -20,6 +20,10 @@ const headerItems = getDataByLang(data, lang);
                             iconClassNames={item.iconClasses}
                             menuText={item.menuText} />
             ))}
+            <li class="change-language">
+                { lang === 'es' && <a href="/" class="change-language__link"><img src="/assets/icons/us.svg" alt="Cambiar a Inglés"> EN</a>}
+                { lang === 'en' && <a href="/es" class="change-language__link"><img src="/assets/icons/es.svg" alt="Change to Spanish"> ES</a>}
+            </li>
         </ul>
     </nav>
 </header>
