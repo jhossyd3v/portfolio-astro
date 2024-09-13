@@ -22,7 +22,7 @@ const { id, title, type, typeText, links, descriptions, tags, technologies } = A
           <ul class="project__links">
               {links.map((link) => (
                   <li class="project__link">
-                      <a class="link__item button" href={link.link}>
+                      <a class="link__item button" href={link.link} target="_blank">
                           <i class:list={["link__icon", link.iconClassNames]}></i>
                           <span class="link__text">{link.text}</span>
                       </a>
